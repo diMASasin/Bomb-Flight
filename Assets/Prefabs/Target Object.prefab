@@ -125,6 +125,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b6ad478749de6438ed706abf8bccdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _reward: 1
+  _rewardType: 1
   _rewardValue: 5
   _destroyDelay: 3
+  _canvas: {fileID: 0}
+  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
+  _lightningIcon: {fileID: 0}
+  _crystalIcon: {fileID: 0}
+  _spawnDelay: 0.1

@@ -17,7 +17,7 @@ public class Wallet : MonoBehaviour
     public event UnityAction<int> BombsChanged;
     public event UnityAction<int> CrystalsChanged;
 
-    public void AddFleshes(int value)
+    public void AddLightnings(int value)
     {
         _fleshes += value;
         FleshesChanged?.Invoke(_fleshes);

@@ -59,25 +59,25 @@ public class Bomb : MonoBehaviour
         {
             Rigidbody rigidbody = overlappedColliders[i].attachedRigidbody;
             Target target = null;
+
             if(rigidbody) 
                 rigidbody.TryGetComponent<Target>(out target);
 
             if (target && !target.IsExploded)
             {
-                if (target.Reward == Rewards.lightnings)
-                    _wallet.AddFleshes(target.RewardValue);
-                else
-                    _wallet.AddCrystals(target.RewardValue);
+                //GiveReward(target);
 
                 if (target.TryGetComponent(out Ragdoll ragdoll))
                     ragdoll.MakePhysical();
 
                 target.SetExploded();
+                target.SpawnReward();
             }
 
             if (rigidbody && !rigidbody.TryGetComponent<Bomb>(out Bomb bomb))
             {
                 rigidbody.AddExplosionForce(_force, transform.position, _radius, _upwardsModifier);
+
                 if (target)
                     target.StartDestroyWithDelay();
             }

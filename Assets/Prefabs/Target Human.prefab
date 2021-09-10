@@ -2185,9 +2185,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b6ad478749de6438ed706abf8bccdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _reward: 0
+  _rewardType: 0
   _rewardValue: 1
   _destroyDelay: 3
+  _canvas: {fileID: 0}
+  _rewardTemplate: {fileID: 5477265556441018219, guid: f3a63c3a28c23994c85cfdff631524c3, type: 3}
+  _lightningIcon: {fileID: 0}
+  _crystalIcon: {fileID: 0}
+  _spawnDelay: 0.1
 --- !u!1 &4907398366968515451
 GameObject:
   m_ObjectHideFlags: 0
