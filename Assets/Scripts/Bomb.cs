@@ -5,11 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Bomb : MonoBehaviour
 {
-    [SerializeField] private Wallet _wallet;
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private float _radius;
     [SerializeField] private float _force;
     [SerializeField] private float _upwardsModifier = 1f;
+    [SerializeField] private ParticleSystem _explotionTemplate;
 
     private Rigidbody _rigidbody;
     private float _speed;
@@ -17,7 +17,6 @@ public class Bomb : MonoBehaviour
 
     private void Start()
     {
-        _wallet = GetComponentInParent<Wallet>();
         _rigidbody = GetComponentInChildren<Rigidbody>();
         _rigidbody.useGravity = false;
     }
@@ -65,8 +64,6 @@ public class Bomb : MonoBehaviour
 
             if (target && !target.IsExploded)
             {
-                //GiveReward(target);
-
                 if (target.TryGetComponent(out Ragdoll ragdoll))
                     ragdoll.MakePhysical();
 
@@ -83,5 +80,8 @@ public class Bomb : MonoBehaviour
             }
 
         }
+        ParticleSystem explotion = Instantiate(_explotionTemplate, transform);
+        explotion.transform.parent = null;
+        explotion.Play();
     }
 }

@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 8b27db53fa6cf88409dd7525abb6880d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8933993209552573285
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_0
+  - first:
+      213: -2867668508594270000
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_1
+  - first:
+      213: -6802920264004197230
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_2
+  - first:
+      213: 8650056844812884315
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_3
+  - first:
+      213: 4975436194924284688
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_4
+  - first:
+      213: -3668926831696115412
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_5
+  - first:
+      213: 5997706159004078066
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_6
+  - first:
+      213: -7999465429999174286
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_7
+  - first:
+      213: -4951157226122271763
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_8
+  - first:
+      213: -3936449416726907657
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_9
+  - first:
+      213: -7167929804483980782
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_10
+  - first:
+      213: 1173497743597537121
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_11
+  - first:
+      213: -7343659593855337099
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_12
+  - first:
+      213: 3019080897045601463
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_13
+  - first:
+      213: -1132064049597484004
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_14
+  - first:
+      213: -1978807412944172826
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_15
+  - first:
+      213: 7300487041450360143
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_16
+  - first:
+      213: 5594770300097208132
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_17
+  - first:
+      213: 4690284463501450583
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_18
+  - first:
+      213: 671364266373270600
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_19
+  - first:
+      213: -6207400753139691569
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_20
+  - first:
+      213: -4584447197007742542
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_21
+  - first:
+      213: -570841354184360915
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_22
+  - first:
+      213: -7211292994311009977
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_23
+  - first:
+      213: 2583775635730937554
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_24
+  - first:
+      213: -1177337899410175391
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_25
+  - first:
+      213: -1144264466153751014
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_26
+  - first:
+      213: -6163693024700736129
+    second: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2860
+        width: 1129
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b591202dedc2b0870800000000000000
+      internalID: 8650056844812884315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_4
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2860
+        width: 1129
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b4519bbdc4c0540800000000000000
+      internalID: 4975436194924284688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_6
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2860
+        width: 1128
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4c9279f12c3350800000000000000
+      internalID: 5997706159004078066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1547
+        width: 1129
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc1290841ee5e920800000000000000
+      internalID: 3019080897045601463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_14
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1547
+        width: 1127
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1470ccaeb91a40f0800000000000000
+      internalID: -1132064049597484004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_16
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 1547
+        width: 1128
+        height: 1129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dbdf8d84a805560800000000000000
+      internalID: 7300487041450360143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 245
+        width: 1129
+        height: 1127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cfcb410d6f318f0800000000000000
+      internalID: -570841354184360915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_23
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 242
+        width: 1127
+        height: 1130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74944de8a375ceb90800000000000000
+      internalID: -7211292994311009977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2_25
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 242
+        width: 1127
+        height: 1130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a4d051b6149afe0800000000000000
+      internalID: -1177337899410175391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3826379b8bf68814b82e952ccd3f211c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

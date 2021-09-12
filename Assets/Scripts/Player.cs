@@ -10,7 +10,9 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private Bomb _bombTemplate;
     [SerializeField] private Transform _bombPosition;
+    [SerializeField] private StartZone _startZone;
 
+    private bool _gameStarted = false;
     private Bomb _bomb;
 
     private void Start()
@@ -20,9 +22,19 @@ public class Player : MonoBehaviour
         _wallet.AddBombs(0);
     }
 
+    private void OnEnable()
+    {
+        _startZone.GameStarted += OnGameStarted;
+    }
+
+    private void OnDisable()
+    {
+        _startZone.GameStarted -= OnGameStarted;
+    }
+
     private void Update()
     {
-        if(Input.GetMouseButtonUp(0) && _wallet.Bombs > 0)
+        if(Input.GetMouseButtonUp(0) && _wallet.Bombs > 0 && _gameStarted)
         {
             _bomb.transform.parent = null;
             _bomb.SetSpeed(_playerMovement.Speed.x);
@@ -43,5 +55,11 @@ public class Player : MonoBehaviour
             if (!_bomb && _wallet.Bombs > 0)
                 _bomb = Instantiate(_bombTemplate, _bombPosition);
         }
+    }
+
+    private void OnGameStarted()
+    {
+        _gameStarted = true;
+        _playerMovement.StartMove();
     }
 }

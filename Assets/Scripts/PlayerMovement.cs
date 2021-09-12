@@ -16,9 +16,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (!_gameStarted)
+            return;
+
         if (Input.GetMouseButtonDown(0))
         {
-            _gameStarted = true;
             _startPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
         }
         else if (Input.GetMouseButton(0))
@@ -30,5 +32,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (_gameStarted)
             transform.Translate(_speed.x * Time.deltaTime, 0, 0);
+    }
+
+    public void StartMove()
+    {
+        _gameStarted = true;
     }
 }

@@ -125,10 +125,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2491b57bf45269b4ebe7580a2d221527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _wallet: {fileID: 0}
   _layerMask:
     serializedVersion: 2
     m_Bits: 64
   _radius: 3
   _force: 20000
   _upwardsModifier: 5
+  _explotionTemplate: {fileID: 2238713534001091986, guid: 12faa94f4e36c204691ea386e6cb7f59, type: 3}
