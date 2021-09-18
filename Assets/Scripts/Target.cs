@@ -13,6 +13,7 @@ public class Target : MonoBehaviour
     [SerializeField] private Rewards _rewardType;
     [SerializeField] private int _rewardValue;
     [SerializeField] private float _destroyDelay;
+    [SerializeField] private int _ignoreBombLayerID = 6;
 
     [SerializeField] private Canvas _canvas;
     [SerializeField] private Reward _rewardTemplate;
@@ -28,6 +29,7 @@ public class Target : MonoBehaviour
     public void SetExploded()
     {
         IsExploded = true;
+        gameObject.layer = _ignoreBombLayerID;
     }
 
     public void SpawnReward()
@@ -48,12 +50,13 @@ public class Target : MonoBehaviour
 
     private IEnumerator SpawnRewardWithDelay()
     {
+        Vector3 spawnPosition = transform.position;
+
         for (int i = 0; i < _rewardValue; i++)
         {
             Reward newReward = Instantiate(_rewardTemplate, _canvas.transform);
             newReward.Initialize(_rewardType == Rewards.lightnings ? _lightningIcon : _crystalIcon, _rewardType);
-            newReward.SetPosition(transform.position);
-            newReward.gameObject.SetActive(true);
+            newReward.SetPosition(spawnPosition);
 
             yield return new WaitForSeconds(_spawnDelay);
         }

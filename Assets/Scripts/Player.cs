@@ -11,6 +11,10 @@ public class Player : MonoBehaviour
     [SerializeField] private Bomb _bombTemplate;
     [SerializeField] private Transform _bombPosition;
     [SerializeField] private StartZone _startZone;
+    [SerializeField] private float _slowMotionDuration = 1;
+    [SerializeField] private float _slowMotionScale = 0.5f;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private Finish _finish;
 
     private bool _gameStarted = false;
     private Bomb _bomb;
@@ -18,8 +22,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerMovement = GetComponent<PlayerMovement>();
-        _bomb = Instantiate(_bombTemplate, _bombPosition);
-        _wallet.AddBombs(0);
+        TrySpawnBomb();
     }
 
     private void OnEnable()
@@ -34,15 +37,20 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonUp(0) && _wallet.Bombs > 0 && _gameStarted)
+        if (!_gameStarted)
+            return;
+
+        _playerMovement.Move();
+
+        if(Input.GetMouseButtonUp(0) && _wallet.Bombs > 0)
         {
             _bomb.transform.parent = null;
             _bomb.SetSpeed(_playerMovement.Speed.x);
             _bomb.TurnOnGravity();
             _bomb.SetDroped();
             _wallet.AddBombs(-1);
-            if(_wallet.Bombs > 0)
-                _bomb = Instantiate(_bombTemplate, _bombPosition);
+
+            TrySpawnBomb();
         }
     }
 
@@ -55,11 +63,43 @@ public class Player : MonoBehaviour
             if (!_bomb && _wallet.Bombs > 0)
                 _bomb = Instantiate(_bombTemplate, _bombPosition);
         }
+        else if (other.TryGetComponent(out Finish finish))
+        {
+            FinishLevel();
+        }
+    }
+
+    private void FinishLevel()
+    {
+        _gameStarted = false;
+        _animator.SetTrigger("Finished");
+        _finish.FinishLevel();
     }
 
     private void OnGameStarted()
     {
         _gameStarted = true;
-        _playerMovement.StartMove();
+    }
+
+    private void TrySpawnBomb()
+    {
+        if (_wallet.Bombs > 0)
+        {
+            _bomb = Instantiate(_bombTemplate, _bombPosition);
+            _bomb.Exploded += OnBombExploded;
+        }
+    }
+
+    private void OnBombExploded(Bomb bomb)
+    {
+        bomb.Exploded -= OnBombExploded;
+        StartCoroutine(SlowDownTime(_slowMotionScale, _slowMotionDuration));
+    }
+
+    private IEnumerator SlowDownTime(float scale, float duration)
+    {
+        Time.timeScale *= scale;
+        yield return new WaitForSeconds(duration);
+        Time.timeScale /= scale;
     }
 }

@@ -12,13 +12,9 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 Speed => _speed;
 
     private Vector2 _startPosition;
-    private bool _gameStarted = false;
 
-    private void Update()
+    public void Move()
     {
-        if (!_gameStarted)
-            return;
-
         if (Input.GetMouseButtonDown(0))
         {
             _startPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
@@ -30,12 +26,6 @@ public class PlayerMovement : MonoBehaviour
             _startPosition = _camera.ScreenToViewportPoint(Input.mousePosition);
         }
 
-        if (_gameStarted)
-            transform.Translate(_speed.x * Time.deltaTime, 0, 0);
-    }
-
-    public void StartMove()
-    {
-        _gameStarted = true;
+        transform.Translate(_speed.x * Time.deltaTime, 0, 0);
     }
 }

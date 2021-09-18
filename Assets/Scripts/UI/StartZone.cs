@@ -13,7 +13,6 @@ public class StartZone : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("sd");
         _gameScreen.SetActive(true);
         GameStarted?.Invoke();
         _startScreen.SetActive(false);

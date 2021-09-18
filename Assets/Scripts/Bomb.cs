@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Bomb : MonoBehaviour
@@ -14,6 +15,8 @@ public class Bomb : MonoBehaviour
     private Rigidbody _rigidbody;
     private float _speed;
     private bool _isDroped = false;
+
+    public event UnityAction<Bomb> Exploded;
 
     private void Start()
     {
@@ -46,6 +49,7 @@ public class Bomb : MonoBehaviour
         if (_layerMask.value != (1 << other.gameObject.layer) && _isDroped)
         {
             Explode();
+            Exploded?.Invoke(this);
             Destroy(gameObject);
         }
     }
@@ -80,6 +84,11 @@ public class Bomb : MonoBehaviour
             }
 
         }
+        SpawnParticleSystem();
+    }
+
+    private void SpawnParticleSystem()
+    {
         ParticleSystem explotion = Instantiate(_explotionTemplate, transform);
         explotion.transform.parent = null;
         explotion.Play();
