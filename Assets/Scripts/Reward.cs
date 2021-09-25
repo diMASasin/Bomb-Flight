@@ -5,22 +5,25 @@ using UnityEngine;
 public class Reward : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private GameObject _rewardTarget;
+    [SerializeField] private GameObject _target;
     [SerializeField] private Rewards _rewardType;
-    [SerializeField] private int _rewardValue = 1;
 
     public Rewards RewardType => _rewardType;
-    public int RewardValue => _rewardValue;
+    public GameObject Target => _target;
+
+    public int RewardValue { get; private set; }
+
 
     private void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, _rewardTarget.transform.position, _speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, _target.transform.position, _speed * Time.deltaTime);
     }
 
-    public void Initialize(GameObject target, Rewards rewardType)
+    public void Initialize(GameObject target, Rewards rewardType, int rewardValue)
     {
-        _rewardTarget = target;
+        _target = target;
         _rewardType = rewardType;
+        RewardValue = rewardValue;
     }
 
     public void SetPosition(Vector3 position)

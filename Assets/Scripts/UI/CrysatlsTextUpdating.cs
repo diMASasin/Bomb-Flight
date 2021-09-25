@@ -10,6 +10,11 @@ public class CrysatlsTextUpdating : MonoBehaviour
 
     private void OnEnable()
     {
+        _wallet.CrystalsChanged += OnCrystalsChanged;
+    }
+
+    private void OnCrystalsChanged(int value)
+    {
         _crystals.text = _wallet.Crystals.ToString();
     }
 }

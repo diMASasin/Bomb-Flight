@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2093590486}
   - component: {fileID: 2093590487}
   - component: {fileID: 2093590485}
+  - component: {fileID: 3146970962094570952}
   m_Layer: 0
   m_Name: Stone Watchtower
   m_TagString: Untagged
@@ -129,8 +130,23 @@ MonoBehaviour:
   _rewardValue: 5
   _destroyDelay: 3
   _ignoreBombLayerID: 6
+--- !u!114 &3146970962094570952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f908df7fcf30e2341991f0f6a4fb34a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rewardType: 0
+  _rewardCount: 0
+  _rewardValue: 0
   _canvas: {fileID: 0}
-  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
-  _lightningIcon: {fileID: 0}
-  _crystalIcon: {fileID: 0}
-  _spawnDelay: 0.1
+  _rewardTemplate: {fileID: 0}
+  _rewardStartPosition: {fileID: 448176}
+  _rewardTarget: {fileID: 0}
+  _spawnDelay: 0

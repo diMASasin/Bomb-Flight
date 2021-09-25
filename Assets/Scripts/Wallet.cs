@@ -13,14 +13,25 @@ public class Wallet : MonoBehaviour
     public int Bombs => _bombs;
     public int Crystals => _crystals;
 
-    public event UnityAction<int> FleshesChanged;
+    public int CrystalsCollectedPerLevel { get; private set; }
+
+    public event UnityAction<int> LighningsChanged;
     public event UnityAction<int> BombsChanged;
     public event UnityAction<int> CrystalsChanged;
+
+    private float _crystalMultiplier = 1;
+
+    private void Start()
+    {
+        LighningsChanged?.Invoke(_lightning);
+        BombsChanged?.Invoke(_bombs);
+        CrystalsChanged?.Invoke(_crystals);
+    }
 
     public void AddLightnings(int value)
     {
         _lightning += value;
-        FleshesChanged?.Invoke(_lightning);
+        LighningsChanged?.Invoke(_lightning);
     }
 
     public void AddBombs(int value)
@@ -32,6 +43,19 @@ public class Wallet : MonoBehaviour
     public void AddCrystals(int value)
     {
         _crystals += value;
+        CrystalsCollectedPerLevel += value;
         CrystalsChanged?.Invoke(_crystals);
+    }
+
+    public void AddCrystalMultiplier(float value)
+    {
+        _crystalMultiplier += value;
+    }
+
+    public void MultiplyCrystals()
+    {
+        CrystalsCollectedPerLevel = (int)(CrystalsCollectedPerLevel * _crystalMultiplier);
+        _crystals += CrystalsCollectedPerLevel;
+        CrystalsChanged?.Invoke(CrystalsCollectedPerLevel);
     }
 }

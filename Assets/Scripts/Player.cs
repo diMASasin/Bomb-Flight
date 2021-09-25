@@ -22,7 +22,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerMovement = GetComponent<PlayerMovement>();
-        TrySpawnBomb();
     }
 
     private void OnEnable()
@@ -42,15 +41,16 @@ public class Player : MonoBehaviour
 
         _playerMovement.Move();
 
-        if(Input.GetMouseButtonUp(0) && _wallet.Bombs > 0)
+        if(Input.GetMouseButtonDown(0))
+            TrySpawnBomb();
+
+        if (Input.GetMouseButtonUp(0) && _wallet.Bombs > 0)
         {
             _bomb.transform.parent = null;
             _bomb.SetSpeed(_playerMovement.Speed.x);
             _bomb.TurnOnGravity();
             _bomb.SetDroped();
             _wallet.AddBombs(-1);
-
-            TrySpawnBomb();
         }
     }
 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2151775429134283628}
   - component: {fileID: 2238713534001091986}
   - component: {fileID: 2239987751889651968}
+  - component: {fileID: 5456393616648852996}
   m_Layer: 0
   m_Name: BigExplosion
   m_TagString: Untagged
@@ -4915,6 +4916,21 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &5456393616648852996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148437287859219168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 0
+  MaximumStress: 0.4
+  Range: 45
 --- !u!1 &2148443697648168378
 GameObject:
   m_ObjectHideFlags: 0

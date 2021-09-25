@@ -100,11 +100,6 @@ MonoBehaviour:
   _rewardValue: 5
   _destroyDelay: 3
   _ignoreBombLayerID: 6
-  _canvas: {fileID: 0}
-  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
-  _lightningIcon: {fileID: 0}
-  _crystalIcon: {fileID: 0}
-  _spawnDelay: 0.1
 --- !u!65 &4682936027231823499
 BoxCollider:
   m_ObjectHideFlags: 0

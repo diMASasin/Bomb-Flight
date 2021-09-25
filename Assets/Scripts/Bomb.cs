@@ -72,7 +72,7 @@ public class Bomb : MonoBehaviour
                     ragdoll.MakePhysical();
 
                 target.SetExploded();
-                target.SpawnReward();
+                target.RewardSpawner.SpawnReward();
             }
 
             if (rigidbody && !rigidbody.TryGetComponent<Bomb>(out Bomb bomb))

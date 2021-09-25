@@ -100,11 +100,6 @@ MonoBehaviour:
   _rewardValue: 5
   _destroyDelay: 3
   _ignoreBombLayerID: 6
-  _canvas: {fileID: 0}
-  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
-  _lightningIcon: {fileID: 0}
-  _crystalIcon: {fileID: 0}
-  _spawnDelay: 0.1
 --- !u!65 &6125234483439794085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116,8 +111,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.6364534, y: 3.846884, z: 3.4297266}
-  m_Center: {x: 0.0037395954, y: 0.07143545, z: -0.14093071}
+  m_Size: {x: 2.3548875, y: 3.846884, z: 3.4297266}
+  m_Center: {x: -0.18603861, y: 0.07143545, z: -0.14093077}
 --- !u!54 &-987812832701724348
 Rigidbody:
   m_ObjectHideFlags: 0

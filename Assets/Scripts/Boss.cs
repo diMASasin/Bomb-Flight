@@ -4,45 +4,44 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    [SerializeField] private Rigidbody _rigidbody;
-    [SerializeField] private float _force;
+    [SerializeField] private Rigidbody[] _rigidbodies;
+    [SerializeField] private Rigidbody _spineRigidbody;
     [SerializeField] private Transform _explosionPosition;
     [SerializeField] private float _radius;
     [SerializeField] private float _upwardsModifier;
     [SerializeField] private Ragdoll _ragdoll;
     [SerializeField] private Wallet _wallet;
     [SerializeField] private float _addingForeForLightning = 550;
+    [SerializeField] private GameObject _finishScreen;
+    [SerializeField] private RewardSpawner _rewardSpawner;
 
-    public void Explode()
+    private bool _isExploded = false;
+    private bool _isRewardSpawned = false;
+
+    private void Update()
     {
-        Collider[] overlappedColliders = Physics.OverlapSphere(transform.position, _radius);
+        if (_spineRigidbody.velocity != Vector3.zero)
+            _isExploded = true;
 
-        _ragdoll.MakePhysical();
-        for (int i = 0; i < overlappedColliders.Length; i++)
+        if (_spineRigidbody.velocity == Vector3.zero && _isExploded)
         {
-            Rigidbody rigidbody = overlappedColliders[i].attachedRigidbody;
+            if(!_finishScreen.activeInHierarchy)
+                _finishScreen.SetActive(true);
 
-            if (rigidbody)
+            if(!_isRewardSpawned)
             {
-                rigidbody.AddExplosionForce(CalculateExplosionForce(), _explosionPosition.position, _radius, _upwardsModifier);
+                _rewardSpawner.SpawnReward();
+                _wallet.MultiplyCrystals();
+                _isRewardSpawned = true;
             }
-
         }
     }
 
-    public void StartExplodeWithDelay(float delay)
+    public void Explode()
     {
-        StartCoroutine(ExplodeWithDelay(delay));
-    }
+        _ragdoll.MakePhysical();
 
-    private IEnumerator ExplodeWithDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        Explode();
-    }
-
-    private float CalculateExplosionForce()
-    {
-        return _addingForeForLightning * _wallet.Lightnings;
+        foreach (var rigidbody in _rigidbodies)
+            rigidbody.AddExplosionForce(_addingForeForLightning * _wallet.Lightnings, _explosionPosition.position, _radius, _upwardsModifier);
     }
 }

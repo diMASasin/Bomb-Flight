@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07dbb5b0a7af6ae409c87fbff3d54123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1.75
-  _rewardTarget: {fileID: 0}
+  _speed: 10
+  _target: {fileID: 0}
   _rewardType: 0
   _rewardValue: 1
 --- !u!54 &5477265556441018216

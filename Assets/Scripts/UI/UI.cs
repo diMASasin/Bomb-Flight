@@ -12,14 +12,14 @@ public class UI : MonoBehaviour
 
     private void OnEnable()
     {
-        _wallet.FleshesChanged += OnFleshesChanged;
+        _wallet.LighningsChanged += OnFleshesChanged;
         _wallet.BombsChanged += OnBombsChanged;
         _wallet.CrystalsChanged += OnCrystalsChanged;
     }
 
     private void OnDisable()
     {
-        _wallet.FleshesChanged -= OnFleshesChanged;
+        _wallet.LighningsChanged -= OnFleshesChanged;
         _wallet.BombsChanged -= OnBombsChanged;
         _wallet.CrystalsChanged -= OnCrystalsChanged;
     }

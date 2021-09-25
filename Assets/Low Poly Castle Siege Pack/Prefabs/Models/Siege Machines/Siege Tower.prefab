@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2304204}
   - component: {fileID: 2113137977021041634}
   - component: {fileID: 2113137977021041633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: siege_tower_wheel_right_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124844}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 2378766}
   - component: {fileID: 2113137976711180983}
   - component: {fileID: 2113137976711180982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: siege_tower_wheel_left_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126846}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 2344854}
   - component: {fileID: 2113137976608635382}
   - component: {fileID: 2113137976608635381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: siege_tower_wheel_left_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159168}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -351,8 +351,8 @@ GameObject:
   - component: {fileID: 3320212}
   - component: {fileID: 2387616}
   - component: {fileID: 2113137977517975109}
-  - component: {fileID: 2113137977517975108}
-  m_Layer: 0
+  - component: {fileID: 535915499}
+  m_Layer: 6
   m_Name: siege_tower_bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166902}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -438,8 +438,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &2113137977517975108
-MeshCollider:
+--- !u!65 &535915499
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -448,10 +448,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: 8c7298c1c5a21e449b42ecaef11e5fe5, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.7083222, y: 1.7550467, z: 0.09286401}
+  m_Center: {x: -0.59365183, y: 0.87739307, z: -0.046746798}
 --- !u!1 &168394
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +464,7 @@ GameObject:
   - component: {fileID: 2369856}
   - component: {fileID: 2113137977169159600}
   - component: {fileID: 2113137977169159607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: siege_tower_wheel_right_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +542,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168394}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -632,8 +631,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0, y: 0, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.258873, y: 4.7714214, z: 2.447942}
+  m_Center: {x: 1.3082561, y: 2.316288, z: -1.0370392}
 --- !u!114 &2113137976588299532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,11 +668,6 @@ MonoBehaviour:
   _rewardValue: 5
   _destroyDelay: 3
   _ignoreBombLayerID: 6
-  _canvas: {fileID: 0}
-  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
-  _lightningIcon: {fileID: 0}
-  _crystalIcon: {fileID: 0}
-  _spawnDelay: 0.1
 --- !u!1 &192930
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,8 +680,8 @@ GameObject:
   - component: {fileID: 3390488}
   - component: {fileID: 2339766}
   - component: {fileID: 2113137977563245921}
-  - component: {fileID: 2113137977563245920}
-  m_Layer: 0
+  - component: {fileID: 1202638274}
+  m_Layer: 6
   m_Name: siege_tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +759,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192930}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 30
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -773,8 +767,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &2113137977563245920
-MeshCollider:
+--- !u!65 &1202638274
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -783,7 +777,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300010, guid: 8c7298c1c5a21e449b42ecaef11e5fe5, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.0763416, y: 4.5716963, z: 2.1508417}
+  m_Center: {x: 0.04920864, y: 0.2969141, z: 0.030028164}
