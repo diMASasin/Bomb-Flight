@@ -12,19 +12,19 @@ public class UI : MonoBehaviour
 
     private void OnEnable()
     {
-        _wallet.LighningsChanged += OnFleshesChanged;
+        _wallet.LighningsChanged += OnLightningsChanged;
         _wallet.BombsChanged += OnBombsChanged;
         _wallet.CrystalsChanged += OnCrystalsChanged;
     }
 
     private void OnDisable()
     {
-        _wallet.LighningsChanged -= OnFleshesChanged;
+        _wallet.LighningsChanged -= OnLightningsChanged;
         _wallet.BombsChanged -= OnBombsChanged;
         _wallet.CrystalsChanged -= OnCrystalsChanged;
     }
 
-    private void OnFleshesChanged(int fleshes)
+    private void OnLightningsChanged(float fleshes)
     {
         _lightnings.text = fleshes.ToString();
     }
@@ -34,7 +34,7 @@ public class UI : MonoBehaviour
         _bombs.text = bombs.ToString();
     }
 
-    private void OnCrystalsChanged(int crystals)
+    private void OnCrystalsChanged(float crystals)
     {
         _crystals.text = crystals.ToString();
     }

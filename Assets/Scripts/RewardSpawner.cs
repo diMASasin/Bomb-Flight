@@ -6,7 +6,7 @@ public class RewardSpawner : MonoBehaviour
 {
     [SerializeField] private Rewards _rewardType;
     [SerializeField] private int _rewardCount;
-    [SerializeField] private int _rewardValue;
+    [SerializeField] private float _rewardValue;
     [SerializeField] private Canvas _canvas;
     [SerializeField] private Reward _rewardTemplate;
     [SerializeField] private Transform _rewardStartPosition;

@@ -2189,7 +2189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rewardType: 0
   _rewardValue: 1
-  _destroyDelay: 3
+  _destroyDelay: 10
   _ignoreBombLayerID: 6
 --- !u!95 &8329723616366739267
 Animator:
@@ -2199,7 +2199,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4856320965765164923}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7d05983d272a0c840b7cac25def2cfde, type: 2}
   m_CullingMode: 0
@@ -2222,14 +2222,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f908df7fcf30e2341991f0f6a4fb34a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rewardType: 0
-  _rewardCount: 0
+  _rewardType: 1
+  _rewardCount: 7
   _rewardValue: 0
   _canvas: {fileID: 0}
-  _rewardTemplate: {fileID: 0}
+  _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
   _rewardStartPosition: {fileID: 4856320965765164918}
   _rewardTarget: {fileID: 0}
-  _spawnDelay: 0
+  _spawnDelay: 0.1
 --- !u!1 &4907398366968515451
 GameObject:
   m_ObjectHideFlags: 0

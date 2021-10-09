@@ -118,7 +118,7 @@ MonoBehaviour:
     m_Bits: 64
   _radius: 3
   _force: 17500
-  _upwardsModifier: 5
+  _upwardsModifier: 15
   _explotionTemplate: {fileID: 2238713534001091986, guid: 12faa94f4e36c204691ea386e6cb7f59, type: 3}
 --- !u!135 &8709031646433988158
 SphereCollider:

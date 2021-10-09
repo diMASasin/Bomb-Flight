@@ -12,19 +12,19 @@ public enum Rewards
 public class Target : MonoBehaviour
 {
     [SerializeField] private Rewards _rewardType;
-    [SerializeField] private int _rewardValue;
-    [SerializeField] private float _destroyDelay;
+    [SerializeField] private float _rewardValue;
+    [SerializeField] private float _destroyDelay = 10;
     [SerializeField] private int _ignoreBombLayerID = 6;
 
-    public RewardSpawner RewardSpawner { get; private set; }
+    public RewardSpawner RewardSpawner { get; protected set; }
     public bool IsExploded { get; private set; } = false;
 
-    private void Start()
+    protected void Start()
     {
         RewardSpawner = GetComponent<RewardSpawner>();
     }
 
-    public void SetExploded()
+    virtual public void SetExploded()
     {
         IsExploded = true;
         gameObject.layer = _ignoreBombLayerID;

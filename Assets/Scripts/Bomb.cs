@@ -18,9 +18,9 @@ public class Bomb : MonoBehaviour
 
     public event UnityAction<Bomb> Exploded;
 
-    private void Start()
+    private void Awake()
     {
-        _rigidbody = GetComponentInChildren<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
         _rigidbody.useGravity = false;
     }
 
@@ -61,30 +61,49 @@ public class Bomb : MonoBehaviour
         for (int i = 0; i < overlappedColliders.Length; i++)
         {
             Rigidbody rigidbody = overlappedColliders[i].attachedRigidbody;
-            Target target = null;
 
-            if(rigidbody) 
-                rigidbody.TryGetComponent<Target>(out target);
+            Target target = TryGetTarget(rigidbody);
 
             if (target && !target.IsExploded)
             {
                 if (target.TryGetComponent(out Ragdoll ragdoll))
                     ragdoll.MakePhysical();
 
+                if (target is HumanTarget)
+                    target = (HumanTarget)target;
+
                 target.SetExploded();
-                target.RewardSpawner.SpawnReward();
+                target.RewardSpawner.SpawnReward(); 
+                
+                //if (target)
+                    target.StartDestroyWithDelay();
             }
 
             if (rigidbody && !rigidbody.TryGetComponent<Bomb>(out Bomb bomb))
             {
                 rigidbody.AddExplosionForce(_force, transform.position, _radius, _upwardsModifier);
 
-                if (target)
-                    target.StartDestroyWithDelay();
+
             }
 
         }
         SpawnParticleSystem();
+    }
+
+    private Target TryGetTarget(Rigidbody rigidbody)
+    {
+        Target target = null;
+        HumanTarget humanTarget = null;
+
+        if (rigidbody)
+        {
+            if (rigidbody.TryGetComponent<HumanTarget>(out humanTarget))
+                target = humanTarget;
+            else
+                rigidbody.TryGetComponent<Target>(out target);
+        }
+
+        return target;
     }
 
     private void SpawnParticleSystem()
