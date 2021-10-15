@@ -61,33 +61,14 @@ public class Bomb : MonoBehaviour
         for (int i = 0; i < overlappedColliders.Length; i++)
         {
             Rigidbody rigidbody = overlappedColliders[i].attachedRigidbody;
-
             Target target = TryGetTarget(rigidbody);
-
-            if (target && !target.IsExploded)
-            {
-                if (target.TryGetComponent(out Ragdoll ragdoll))
-                    ragdoll.MakePhysical();
-
-                if (target is HumanTarget)
-                    target = (HumanTarget)target;
-
-                target.SetExploded();
-                target.RewardSpawner.SpawnReward(); 
-                
-                //if (target)
-                    target.StartDestroyWithDelay();
-            }
+            TryExplodeTarget(target);
 
             if (rigidbody && !rigidbody.TryGetComponent<Bomb>(out Bomb bomb))
-            {
                 rigidbody.AddExplosionForce(_force, transform.position, _radius, _upwardsModifier);
 
-
-            }
-
         }
-        SpawnParticleSystem();
+        SpawnExplosionParticleSystem();
     }
 
     private Target TryGetTarget(Rigidbody rigidbody)
@@ -106,7 +87,24 @@ public class Bomb : MonoBehaviour
         return target;
     }
 
-    private void SpawnParticleSystem()
+    private void TryExplodeTarget(Target target)
+    {
+        if (target && !target.IsExploded)
+        {
+            if (target.TryGetComponent(out Ragdoll ragdoll))
+                ragdoll.MakePhysical();
+
+            if (target is HumanTarget)
+                target = (HumanTarget)target;
+
+            target.SetExploded();
+            target.RewardSpawner.SpawnReward();
+
+            target.StartDestroyWithDelay();
+        }
+    }
+
+    private void SpawnExplosionParticleSystem()
     {
         ParticleSystem explotion = Instantiate(_explotionTemplate, transform);
         explotion.transform.parent = null;

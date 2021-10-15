@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.Events;
 using IJunior.TypedScenes;
 
-public class Wallet : MonoBehaviour, ISceneLoadHandler<int>
+public class Wallet : MonoBehaviour
 {
-    [SerializeField] private float _lightning;
+    [SerializeField] private float _lightnings;
     [SerializeField] private int _bombs;
     [SerializeField] private float _crystals;
+    [SerializeField] private GradualAccrualOf—urrency _accrualOf—urrency;
 
-    public float Lightnings => _lightning;
+    public float Lightnings => _lightnings;
     public int Bombs => _bombs;
     public float Crystals => _crystals;
 
@@ -25,22 +26,22 @@ public class Wallet : MonoBehaviour, ISceneLoadHandler<int>
 
     private void Start()
     {
-        LighningsChanged?.Invoke(_lightning);
-        BombsChanged?.Invoke(_bombs);
-        CrystalsChanged?.Invoke(_crystals);
+        UpdateAll();
     }
 
-    public void OnSceneLoaded(int argument)
+    public void UpdateAll()
     {
-        _crystals = argument;
+        LighningsChanged?.Invoke(_lightnings);
+        BombsChanged?.Invoke(_bombs);
         CrystalsChanged?.Invoke(_crystals);
     }
 
     public void AddLightnings(float value)
     {
-        _lightning += value;
-        LighningsChanged?.Invoke(_lightning);
+        _lightnings += value;
+        LighningsChanged?.Invoke(_lightnings);
     }
+
 
     public void AddBombs(int value)
     {
@@ -51,8 +52,38 @@ public class Wallet : MonoBehaviour, ISceneLoadHandler<int>
     public void AddCrystals(float value)
     {
         _crystals += value;
-        CrystalsCollectedPerLevel += value;
         CrystalsChanged?.Invoke(_crystals);
+    }
+
+    public void AddCrystalsCollectedPerLevel(float value)
+    {
+        CrystalsCollectedPerLevel += value;
+    }
+
+    public void AddCurrency(Rewards rewards, float value)
+    {
+        if (rewards == Rewards.crystals)
+            AddCrystals(value);
+        else
+            AddLightnings(value);
+    }
+
+    public void UpdateLightningsText(float value)
+    {
+        LighningsChanged?.Invoke(value);
+    }
+
+    public void UpdateCrystalsText(float value)
+    {
+        CrystalsChanged?.Invoke(value);
+    }
+
+    public void UpdateCurrency(Rewards rewards, float value)
+    {
+        if (rewards == Rewards.crystals)
+            UpdateCrystalsText(value);
+        else 
+            UpdateLightningsText(value);
     }
 
     public void AddCrystalMultiplier(float value)
@@ -63,8 +94,6 @@ public class Wallet : MonoBehaviour, ISceneLoadHandler<int>
 
     public void MultiplyCrystals()
     {
-        CrystalsCollectedPerLevel = (int)(CrystalsCollectedPerLevel * _crystalMultiplier);
-        _crystals += CrystalsCollectedPerLevel;
-        CrystalsChanged?.Invoke(CrystalsCollectedPerLevel);
+        _accrualOf—urrency.Add((int)(CrystalsCollectedPerLevel * (_crystalMultiplier - 1)), Rewards.crystals);
     }
 }

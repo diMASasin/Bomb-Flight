@@ -9,13 +9,24 @@ public class GameSaver : MonoBehaviour
 
     private void Start()
     {
-        if(PlayerPrefs.HasKey(_crystalsKey))
+        Load();
+    }
+
+
+    public void Save()
+    {
+        PlayerPrefs.SetFloat(_crystalsKey, _wallet.Crystals);
+    }
+
+    public void Load()
+    {
+        if (PlayerPrefs.HasKey(_crystalsKey))
             _wallet.AddCrystals(PlayerPrefs.GetFloat(_crystalsKey, _wallet.Crystals));
     }
 
     private void OnApplicationPause(bool isPaused)
     {
-        if(isPaused)
-            PlayerPrefs.SetFloat(_crystalsKey, _wallet.Crystals);
+        if (isPaused)
+            Save();
     }
 }

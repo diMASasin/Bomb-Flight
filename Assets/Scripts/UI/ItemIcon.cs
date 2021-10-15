@@ -6,7 +6,7 @@ public class ItemIcon : MonoBehaviour
 {
     [SerializeField] private Wallet _wallet;
     [SerializeField] private ParticleSystem[] _particleSystems;
-    [SerializeField] private Animation _animation;
+    [SerializeField] private Animator _animator;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,13 +15,16 @@ public class ItemIcon : MonoBehaviour
             if (reward.Target != gameObject)
                 return;
 
-            if(!_animation.isPlaying)
-                _animation.Play();
-
             foreach (var particleSystem in _particleSystems)
                 particleSystem.Play();
 
             AddRewardToBalance(reward);
+
+            if (!_animator.GetCurrentAnimatorStateInfo(0).IsName("RewardAccepted"))
+                _animator.SetTrigger("Collected");
+            else
+                _animator.ResetTrigger("Collected");
+
             Destroy(reward.gameObject);
         }
     }
@@ -29,8 +32,13 @@ public class ItemIcon : MonoBehaviour
     private void AddRewardToBalance(Reward reward)
     {
         if (reward.RewardType == Rewards.lightnings)
+        {
             _wallet.AddLightnings(reward.RewardValue);
+        }
         else
+        {
             _wallet.AddCrystals(reward.RewardValue);
+            _wallet.AddCrystalsCollectedPerLevel(reward.RewardValue);
+        }
     }
 }

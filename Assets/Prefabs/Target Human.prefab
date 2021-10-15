@@ -2111,7 +2111,7 @@ Transform:
   m_GameObject: {fileID: 4856320965765164923}
   m_LocalRotation: {x: 0, y: -0.99396193, z: 0, w: 0.109725736}
   m_LocalPosition: {x: 19.8, y: 0.25, z: -0.39}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 2340975657489742515}
   - {fileID: 7781748682873331045}
@@ -2224,7 +2224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rewardType: 1
   _rewardCount: 7
-  _rewardValue: 0
+  _rewardValue: 1.5
   _canvas: {fileID: 0}
   _rewardTemplate: {fileID: 5477265556441018219, guid: 14885ccad623fee438321ba6fdc02dff, type: 3}
   _rewardStartPosition: {fileID: 4856320965765164918}

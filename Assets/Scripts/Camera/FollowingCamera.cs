@@ -16,11 +16,17 @@ public class FollowingCamera : MonoBehaviour
         _currentTarget = _player;
     }
 
+    private void FixedUpdate()
+    {
+         if (_currentTarget == _battery)
+            MoveSmoothly();
+        else if(_currentTarget == _boss)
+            MoveAlongXAxis();
+    }
+
     private void Update()
     {
-        if (_currentTarget == _battery)
-            MoveSmoothly();
-        else
+        if (_currentTarget == _player)
             MoveSmoothlyAlongYAxis();
     }
 
@@ -34,6 +40,14 @@ public class FollowingCamera : MonoBehaviour
         _camera.transform.position = new Vector3(
         Mathf.Lerp(_camera.transform.position.x, _currentTarget.Target.transform.position.x + _currentTarget.Offset.x, 1),
         Mathf.Lerp(_camera.transform.position.y, _currentTarget.Target.transform.position.y + _currentTarget.Offset.y, _currentTarget.Speed * Time.deltaTime),
+        Mathf.Lerp(_camera.transform.position.z, _currentTarget.Target.transform.position.z + _currentTarget.Offset.z, 1));
+    }
+
+    private void MoveAlongXAxis()
+    {
+        _camera.transform.position = new Vector3(
+        Mathf.Lerp(_camera.transform.position.x, _currentTarget.Target.transform.position.x + _currentTarget.Offset.x, _currentTarget.Speed * Time.deltaTime),
+        _camera.transform.position.y,
         Mathf.Lerp(_camera.transform.position.z, _currentTarget.Target.transform.position.z + _currentTarget.Offset.z, 1));
     }
 

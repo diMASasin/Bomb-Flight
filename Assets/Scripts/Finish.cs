@@ -13,6 +13,9 @@ public class Finish : MonoBehaviour
     [SerializeField] private GameObject _gameScreen;
     [SerializeField] private TMP_Text _crystalMultiplierText;
     [SerializeField] private Wallet _wallet;
+    [SerializeField] private float _minimumBatterySize = 0.1f;
+    [SerializeField] private GradualAccrualOf—urrency _accrualOf—urrency;
+    [SerializeField] private GameObject _aim;
 
     private Animator _animator;
 
@@ -38,8 +41,8 @@ public class Finish : MonoBehaviour
         if(other.TryGetComponent(out Player player))
         {
             player.FinishLevel();
-            _animator.SetTrigger("LevelFinished");
-            _battery.LandingAnimation.StartChangePosition();
+            _battery.LandingAnimation.StartLanding();
+            _aim.SetActive(false);
         }
     }
 
@@ -50,11 +53,12 @@ public class Finish : MonoBehaviour
         _battery.IncreaseSizeAnimation.StartIncreaseSizeWithDelay(targetScale);
         SetCameraOnBattery();
         SpawnReward();
+        _accrualOf—urrency.Add(-_wallet.Lightnings, Rewards.lightnings, true);
     }
 
     private void OnIncreaseSizeFinished()
     {
-        Invoke("ExplodeBoss", 0.2f);
+        _animator.SetTrigger("Explode");
     }
 
     public void SetCameraOnBattery()
@@ -78,10 +82,12 @@ public class Finish : MonoBehaviour
     public Vector3 LightningsToScale()
     {
         Vector3 newSize;
-        if (_wallet.Lightnings / 25 < 0.1f)
-            newSize = new Vector3(0.1f, 0.1f, 0.1f);
+        float divider = 25;
 
-        newSize.x = _wallet.Lightnings / 25;
+        if (_wallet.Lightnings / divider < _minimumBatterySize)
+            newSize = Vector3.one * _minimumBatterySize;
+
+        newSize.x = _wallet.Lightnings / divider;
         newSize.y = newSize.x;
         newSize.z = newSize.x;
 

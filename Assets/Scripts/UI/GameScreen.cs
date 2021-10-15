@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class UI : MonoBehaviour
+public class GameScreen : MonoBehaviour
 {
-    [SerializeField] private Text _lightnings;
-    [SerializeField] private Text _bombs;
-    [SerializeField] private Text _crystals;
+    [SerializeField] private TMP_Text _lightnings;
+    [SerializeField] private TMP_Text _bombs;
+    [SerializeField] private TMP_Text _crystals;
     [SerializeField] private Wallet _wallet;
 
     private void OnEnable()
@@ -15,6 +16,7 @@ public class UI : MonoBehaviour
         _wallet.LighningsChanged += OnLightningsChanged;
         _wallet.BombsChanged += OnBombsChanged;
         _wallet.CrystalsChanged += OnCrystalsChanged;
+        _wallet.UpdateAll();
     }
 
     private void OnDisable()
@@ -26,7 +28,7 @@ public class UI : MonoBehaviour
 
     private void OnLightningsChanged(float fleshes)
     {
-        _lightnings.text = fleshes.ToString();
+        _lightnings.text = string.Format("{0:f1}", fleshes);
     }
 
     private void OnBombsChanged(int bombs)

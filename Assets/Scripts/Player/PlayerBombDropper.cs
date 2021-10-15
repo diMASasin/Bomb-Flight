@@ -9,6 +9,7 @@ public class PlayerBombDropper : MonoBehaviour
     [SerializeField] private float _slowMotionDuration = 0.5f;
     [SerializeField] private float _slowMotionScale = 0.75f;
     [SerializeField] private Animator _bombsAnimator;
+    [SerializeField] private ExplosionEffect _explosionEffect;
 
     public void DropBomb(Bomb bomb, float speed)
     {
@@ -34,11 +35,17 @@ public class PlayerBombDropper : MonoBehaviour
         return newBomb;
     }
 
+    public void PlayCollectBombsAnimation()
+    {
+        _bombsAnimator.SetTrigger("Collected");
+    }
+
     private void OnBombExploded(Bomb bomb)
     {
         bomb.Exploded -= OnBombExploded;
         Handheld.Vibrate();
         StartCoroutine(SlowDownTime(_slowMotionScale, _slowMotionDuration));
+        _explosionEffect.PlayExplosionEffect();
     }
 
     private IEnumerator SlowDownTime(float scale, float duration)

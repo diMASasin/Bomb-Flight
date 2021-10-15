@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
                 _animator.SetBool("IsBombSpawned", true);
         }
 
-        if (Input.GetMouseButtonUp(0) && _wallet.Bombs > 0)
+        if (Input.GetMouseButtonUp(0) && _wallet.Bombs > 0 && _bomb)
         {
             _animator.SetBool("IsBombSpawned", false);
             _bombDropper.DropBomb(_bomb, _playerMovement.Speed.x);
@@ -58,6 +58,7 @@ public class Player : MonoBehaviour
     private void CollectBombItem(BombItem bombItem)
     {
         _wallet.AddBombs(bombItem.Value);
+        _bombDropper.PlayCollectBombsAnimation();
         Destroy(bombItem.gameObject);
         _multipleVibrator.StartVibrateSeveralTimes();
     }

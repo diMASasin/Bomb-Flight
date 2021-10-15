@@ -14,12 +14,11 @@ public class Boss : MonoBehaviour
     [SerializeField] private float _upwardsModifier;
     [SerializeField] private Ragdoll _ragdoll;
     [SerializeField] private Wallet _wallet;
-    [SerializeField] private float _addingForeForLightning = 550;
+    [SerializeField] private float _addingForceForLightning = 550;
     [SerializeField] private GameObject _finishScreen;
     [SerializeField] private RewardSpawner _rewardSpawner;
     [SerializeField] private TMP_Text _crystalMultiplierText;
-    [SerializeField] private MovementStopChecker _bossFollower;
-    [SerializeField] private float _endScreenDelay;
+    [SerializeField] private MovementStopChecker _movementStopChecker;
 
     public CameraTarget CameraTarget { get; private set; }
 
@@ -33,23 +32,16 @@ public class Boss : MonoBehaviour
 
     private void OnEnable()
     {
-        _bossFollower.MovementStopped += OnMovementStopped;
+        _movementStopChecker.MovementStopped += OnMovementStopped;
     }
 
     private void OnDisable()
     {
-        _bossFollower.MovementStopped -= OnMovementStopped;
+        _movementStopChecker.MovementStopped -= OnMovementStopped;
     }
 
     public void OnMovementStopped()
     {
-        StartCoroutine(OnMovementStoppedWithDelay(_endScreenDelay));
-    }
-
-    private IEnumerator OnMovementStoppedWithDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-
         _finishScreen.SetActive(true);
         _crystalMultiplierText.gameObject.SetActive(false);
 
@@ -68,8 +60,8 @@ public class Boss : MonoBehaviour
         _animator.enabled = false;
 
         foreach (var rigidbody in _rigidbodies)
-            rigidbody.AddExplosionForce(_addingForeForLightning * _wallet.Lightnings, _explosionPosition.position, _radius, _upwardsModifier);
+            rigidbody.AddExplosionForce(_addingForceForLightning * _wallet.Lightnings, _explosionPosition.position, _radius, _upwardsModifier);
 
-        _bossFollower.SetBossExploded();
+        _movementStopChecker.SetBossExploded();
     }
 }

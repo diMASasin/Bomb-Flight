@@ -20,7 +20,7 @@ public class BatteryLandingAnimation : MonoBehaviour
         StartCoroutine(ChangePosition(targetPosition));
     }
 
-    public void StartChangePosition()
+    public void StartLanding()
     {
         _startPosition = _battery.transform.localPosition;
         StartCoroutine(ChangePosition(_targetPosition.localPosition));

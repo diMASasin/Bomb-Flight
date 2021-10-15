@@ -15,23 +15,27 @@ public class BonusPlatform : MonoBehaviour
 
     private void Start()
     {
-        ParticleSystemsSetActive(false);
+        SetParticleSystemsActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        ParticleSystemsSetActive(true);
+        if (other.TryGetComponent(out MovementStopChecker boss))
+            return;
+
+        SetParticleSystemsActive(true);
         _animator.SetTrigger("OnHitting");
-        Handheld.Vibrate();
+
 
         if(!_isBonusIssued)
         {
             _wallet.AddCrystalMultiplier(_addingCrystalMultiplier);
+            Handheld.Vibrate();
             _isBonusIssued = true;
         }
     }
 
-    private void ParticleSystemsSetActive(bool value)
+    private void SetParticleSystemsActive(bool value)
     {
         foreach (var particleSystem in _particleSystems)
             particleSystem.gameObject.SetActive(value);
