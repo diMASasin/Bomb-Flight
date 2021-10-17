@@ -15,11 +15,11 @@ C:/Users/Dmitriy/Documents/GitHub/Bomb Flight
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57366
+65434
 Successfully changed project path to: C:/Users/Dmitriy/Documents/GitHub/Bomb Flight
 C:/Users/Dmitriy/Documents/GitHub/Bomb Flight
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1522 +35,177 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001918 seconds.
+Registered in 0.002843 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.299 seconds
+- Completed reload, in  2.265 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000816 seconds.
+Registered in 0.000774 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.077 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1341 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.1 MB.
+System memory in use before: 145.1 MB.
+System memory in use after: 145.2 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1798.
-Total: 2.432900 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.088200 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.080900 ms)
+Total: 2.140600 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.056000 ms MarkObjects: 1.826200 ms  DeleteObjects: 0.081900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab
-  artifactKey: Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab using Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c88635ce71d823da59c3fc5352394') in 0.224869 seconds
-  Import took 0.228085 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a1853b736837ecfb0820a881449cb') in 0.011585 seconds
+  Import took 0.025921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab
-  artifactKey: Guid(6a7274aefcc6cef4fbbfba924cc7f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab using Guid(6a7274aefcc6cef4fbbfba924cc7f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8562b5d881fb11bab5d92e8bb0432e1') in 0.084117 seconds
-  Import took 0.087640 seconds .
+  Time since last request: 85.555114 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b3d628441a86bb84f9f01e3e400948a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b3d628441a86bb84f9f01e3e400948a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab84b8ec0cf3e5bf425da4e984db06c') in 0.011848 seconds
+  Import took 0.015593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab
-  artifactKey: Guid(5c02591794acece409986647ed6329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab using Guid(5c02591794acece409986647ed6329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf63c00d215b7134683a3927387f53de') in 0.064853 seconds
-  Import took 0.068211 seconds .
+  Time since last request: 18.299729 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(2ea623798f3ba7c4d9e8d378dfae650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(2ea623798f3ba7c4d9e8d378dfae650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b5a8fd44e1a486047279f924ab4eb4') in 0.166429 seconds
+  Import took 0.188209 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab
-  artifactKey: Guid(676e107eeafc5524b97910d76516565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab using Guid(676e107eeafc5524b97910d76516565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19149945d5597dfa2662501ba0a7e85') in 0.125629 seconds
-  Import took 0.178569 seconds .
+  Time since last request: 179.071095 seconds.
+  path: Assets/Materials/Без названия.jpg
+  artifactKey: Guid(e60bfdf1ae5cce54bb47ac36b840b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Без названия.jpg using Guid(e60bfdf1ae5cce54bb47ac36b840b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c1922fd0a9f88017b57bbc926a10d') in 0.047999 seconds
+  Import took 0.051858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab
-  artifactKey: Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab using Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb98995d751423dcad2e88eef4ccf0b') in 0.102730 seconds
-  Import took 0.106880 seconds .
+  Time since last request: 217.745145 seconds.
+  path: Assets/Scenes/Lighting
+  artifactKey: Guid(985b33a493f1af74cbe0c8ca60c76e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lighting using Guid(985b33a493f1af74cbe0c8ca60c76e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19076bfa18f93eef18b89ebddcf826e') in 0.011701 seconds
+  Import took 0.028627 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab
-  artifactKey: Guid(38dea0631a962ad45b71e2759e4240d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab using Guid(38dea0631a962ad45b71e2759e4240d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca2b11eb3a0889503cba6cf8e27b263') in 0.081402 seconds
-  Import took 0.084829 seconds .
+  Time since last request: 1.616472 seconds.
+  path: Assets/Scenes/Lighting/Level_1
+  artifactKey: Guid(c7c18345b033f2e478570979c65a5ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lighting/Level_1 using Guid(c7c18345b033f2e478570979c65a5ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ae18eb58a3362ca484e9a0cecae54e') in 0.012352 seconds
+  Import took 0.015493 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab
-  artifactKey: Guid(af16961524284e54491133548920258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab using Guid(af16961524284e54491133548920258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e140c875d3eeca1c0679329e7e5c2') in 0.069078 seconds
-  Import took 0.072030 seconds .
+  Time since last request: 0.191668 seconds.
+  path: Assets/Scenes/Lighting/Level_1/LightingData.asset
+  artifactKey: Guid(e56665b4e8254c944aad6a20842031bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lighting/Level_1/LightingData.asset using Guid(e56665b4e8254c944aad6a20842031bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303ab5f3cb2a35b4367c530c1e0118cf') in 0.014261 seconds
+  Import took 0.018786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab
-  artifactKey: Guid(5a0537415d4017c4fad7a4986f502dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab using Guid(5a0537415d4017c4fad7a4986f502dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e43251ddfcf2ed36511ce8855614007') in 0.085326 seconds
-  Import took 0.101337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab
-  artifactKey: Guid(cd34118c604e29141afea74caecd70f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab using Guid(cd34118c604e29141afea74caecd70f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff5499cf462b9d58ed9cfa9a1005ce') in 0.066596 seconds
-  Import took 0.069578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack
-  artifactKey: Guid(ba673bcb24f71034d969e417802538fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack using Guid(ba673bcb24f71034d969e417802538fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b74f223b079c16c9bfd9601be0f137') in 0.010677 seconds
-  Import took 0.042956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs
-  artifactKey: Guid(ea08d9dc514a72c4182e8436320c8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs using Guid(ea08d9dc514a72c4182e8436320c8ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d495538231e106a11bdc1b7080c3cd6') in 0.009628 seconds
-  Import took 0.013031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab
-  artifactKey: Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab using Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89111a501f8ade08b12d92dec6fdda26') in 0.074476 seconds
-  Import took 0.077526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab
-  artifactKey: Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab using Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17d8296e5d21e9b4e1ce385460bc240') in 0.067273 seconds
-  Import took 0.070922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Animations/Zombie Idle.fbx
-  artifactKey: Guid(c5c450ba14cd74a42aade8513e5cffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Zombie Idle.fbx using Guid(c5c450ba14cd74a42aade8513e5cffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8c1c5699dba1dc26cf8c40041a1e41') in 0.199734 seconds
-  Import took 0.207559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000735 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab
-  artifactKey: Guid(b34bf25cecb5fc24c91de3edea19cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab using Guid(b34bf25cecb5fc24c91de3edea19cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949b6559a5659d8ab0218c52fb9c7fec') in 0.080403 seconds
-  Import took 0.085392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab
-  artifactKey: Guid(8f226a393243a0141bace5fd6b60bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab using Guid(8f226a393243a0141bace5fd6b60bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a204f9799d1877e8025087c5ca34c01') in 0.065118 seconds
-  Import took 0.070421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab
-  artifactKey: Guid(1a73058088a4b204bb3a13aff5c48489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab using Guid(1a73058088a4b204bb3a13aff5c48489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d0a277350fccee6f873579e2e35043') in 0.080308 seconds
-  Import took 0.084100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab
-  artifactKey: Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab using Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbe848491b531a9813637e5e73ed04c') in 0.075326 seconds
-  Import took 0.078701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
-  artifactKey: Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab using Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e91b9b6da272d7a5c6fcc0d2fa5f6c') in 0.074415 seconds
-  Import took 0.078514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.953839 seconds.
-  path: Assets/Images/bomb.png
-  artifactKey: Guid(f998f3b10aad4fa41b852ef589c298e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/bomb.png using Guid(f998f3b10aad4fa41b852ef589c298e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e16b04491b8d1f449e3c18669443a43') in 0.192247 seconds
-  Import took 0.196516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Images/gemstone.png
-  artifactKey: Guid(1c9e2d55e79efb54790db51bac186298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/gemstone.png using Guid(1c9e2d55e79efb54790db51bac186298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0545d9a90bb140900c2137a7534707') in 0.043257 seconds
-  Import took 0.049099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Images/uploads_aim_aim_PNG25.png
-  artifactKey: Guid(6ebfaa62f178d654db902a4e8bde6a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/uploads_aim_aim_PNG25.png using Guid(6ebfaa62f178d654db902a4e8bde6a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ee5ce153f8f262c27530326a00db0e') in 0.059064 seconds
-  Import took 0.075925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Images/lightning.png
-  artifactKey: Guid(d45e44858ed132542b27a46ecd6ea6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/lightning.png using Guid(d45e44858ed132542b27a46ecd6ea6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2898ae33d2c6402645f4e2dc319cf') in 0.023678 seconds
-  Import took 0.026680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Images/shop.png
-  artifactKey: Guid(eab1b4d7f907d2a478f33068c8c5723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/shop.png using Guid(eab1b4d7f907d2a478f33068c8c5723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b00392d3a8d3c8a834b68e8f6e88ac') in 0.025751 seconds
-  Import took 0.029837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Images/Finish.png
-  artifactKey: Guid(1f9e1dd5514ceac48a3a4a3a1c613f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Finish.png using Guid(1f9e1dd5514ceac48a3a4a3a1c613f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb4ae7ece5010924f6da4f3bf4e83a6') in 0.034932 seconds
-  Import took 0.038608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Images/double-tap.png
-  artifactKey: Guid(e217119b313f67746bbc97482d709b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/double-tap.png using Guid(e217119b313f67746bbc97482d709b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38485f3474fa4172f32f1ed1bd5485fc') in 0.027169 seconds
-  Import took 0.032184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Images/colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2.png
-  artifactKey: Guid(8b27db53fa6cf88409dd7525abb6880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/colorful_glossy_button_design_vector__App_icons_template__isolated_on_white_2.png using Guid(8b27db53fa6cf88409dd7525abb6880d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c7c19c43d0c85c9627d233232146c3') in 0.143184 seconds
-  Import took 0.146373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.540199 seconds.
-  path: Assets/Materials/Finish.png
-  artifactKey: Guid(694a1b990a5c0584ebed36118b101149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Finish.png using Guid(694a1b990a5c0584ebed36118b101149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc9e5597fd493b0905efbed7ea02145') in 0.013846 seconds
-  Import took 0.019178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006592 seconds.
-  path: Assets/Materials/Finish.png
-  artifactKey: Guid(694a1b990a5c0584ebed36118b101149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Finish.png using Guid(694a1b990a5c0584ebed36118b101149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc9e5597fd493b0905efbed7ea02145') in 0.007497 seconds
-  Import took 0.011213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.035377 seconds.
-  path: Assets/Prefabs/Level (1).prefab
-  artifactKey: Guid(872bb23dd4a05214cbbf4e045962dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level (1).prefab using Guid(872bb23dd4a05214cbbf4e045962dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de526d51d83ec60ba1c2645ea0349da1') in 0.896263 seconds
-  Import took 0.924454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068516 seconds.
-  path: Assets/Profiles/Main Camera Profile.asset
-  artifactKey: Guid(4c0e7af3737699142a51bd4cbb340f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Profiles/Main Camera Profile.asset using Guid(4c0e7af3737699142a51bd4cbb340f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0274d6408b7eac2b1bb0a10b98524d') in 0.010045 seconds
-  Import took 0.014361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.733809 seconds.
-  path: Assets/SimpleFX/Prefabs
-  artifactKey: Guid(201bbbda1f05e554590d1aa57966e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs using Guid(201bbbda1f05e554590d1aa57966e2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c979663b82e33feccd15ca2831410bbb') in 0.010617 seconds
-  Import took 0.014109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061765 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab
-  artifactKey: Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_BloodSplatter.prefab using Guid(8c27aeead6d968e4ba986702d6b84335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e15df9c61ddb885ae781e6edf1a51f4') in 0.107432 seconds
-  Import took 0.113228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab
-  artifactKey: Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_DirtSplatter.prefab using Guid(834c99069a124aa439d5795c3579843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7661f4236c4462ce30440a6a580a9c') in 0.039483 seconds
-  Import took 0.044769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab
-  artifactKey: Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_01.prefab using Guid(c83a45822d0d3f94991e76a87670125c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ff0b119fc36c5f7da0a893e52a2421') in 0.110037 seconds
-  Import took 0.118416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000749 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab
-  artifactKey: Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_02.prefab using Guid(cd427f0dc853ec74a9ba1c5ff0e48ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9b17b2789edafdafcbfde3bccd050f') in 0.064065 seconds
-  Import took 0.070270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab
-  artifactKey: Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Dust_Prefab_03.prefab using Guid(1570b78163aaedc44bfd35cf13a9f13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c9a473e8162cbe0c9dbe967e7fbfc2') in 0.053175 seconds
-  Import took 0.056917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab
-  artifactKey: Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab using Guid(079954accd64b32419ec069129c81273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34527ed14ad47201f15e5e5b4e70be') in 0.019213 seconds
-  Import took 0.114899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002113 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab
-  artifactKey: Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Large.prefab using Guid(5702e2a6fea804b45b49b70d8feaf7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce7d590bb66a8145fa73af01bfb76ea') in 0.315677 seconds
-  Import took 0.323650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fire.prefab
-  artifactKey: Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fire.prefab using Guid(756d99540142b5e4a8d174e18a6310d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ff51ce7c977405e154b72bcf599d99') in 0.014869 seconds
-  Import took 0.019117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab
-  artifactKey: Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab using Guid(26d069e6f78e6f8478e4dc0152bd6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1eb078fc262cd93c8fd6bbf5cdc657') in 0.053622 seconds
-  Import took 0.056505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab
-  artifactKey: Guid(cd4d7020429cde74db076ffa72495419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Small.prefab using Guid(cd4d7020429cde74db076ffa72495419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca242b5397ac316d256b1072a7441b5d') in 0.060849 seconds
-  Import took 0.066220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab
-  artifactKey: Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Blue_Small .prefab using Guid(6636b3078b0905e489f698a11b7a6b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36873617e755a89e90d445f1902f43d') in 0.015528 seconds
-  Import took 0.021120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab
-  artifactKey: Guid(0f75f6db4a318f54382e0c98b2226db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab using Guid(0f75f6db4a318f54382e0c98b2226db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcdb64c44683e5c7722ceb3ff705b9f') in 0.011785 seconds
-  Import took 0.016245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab
-  artifactKey: Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Small.prefab using Guid(6586ff0f14125534cae2f5d8f04b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058fe4329f961006dcca2894d101ba01') in 0.264238 seconds
-  Import took 0.270089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab
-  artifactKey: Guid(5cd5599e01f32bd418f20a3b9eac1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab using Guid(5cd5599e01f32bd418f20a3b9eac1c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f9f53737aa1f8bca80730fe8aff3ee') in 0.032056 seconds
-  Import took 0.036742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_GunFlash.prefab
-  artifactKey: Guid(b955daae02e019d45a8fb68cfd843784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_GunFlash.prefab using Guid(b955daae02e019d45a8fb68cfd843784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d5f6a0bc6b34d0ed41663731475094') in 0.225888 seconds
-  Import took 0.231052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Lightray.prefab
-  artifactKey: Guid(e7aa3eba36ce5d04c84a01925e585932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Lightray.prefab using Guid(e7aa3eba36ce5d04c84a01925e585932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd407f76cc6f36c366a2f603d310d0b0f') in 0.083712 seconds
-  Import took 0.161649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000755 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Steam.prefab
-  artifactKey: Guid(5b6c2f68addb63847b151f0d41a9d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Steam.prefab using Guid(5b6c2f68addb63847b151f0d41a9d3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ed7119b34b5a63fc688900e5d6c578') in 0.060183 seconds
-  Import took 0.147684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000741 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab
-  artifactKey: Guid(d7bf18dd20422304ea868e95c3518f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_TireSmoke.prefab using Guid(d7bf18dd20422304ea868e95c3518f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3013d82332beefc1f24aee406297356') in 0.027391 seconds
-  Import took 0.033798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Rubble.prefab
-  artifactKey: Guid(7904355fdf7fdcb4ebc3dca81eb5890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Rubble.prefab using Guid(7904355fdf7fdcb4ebc3dca81eb5890e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea8ec17b71c40daa1763a191f00bbb2') in 0.017774 seconds
-  Import took 0.021743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab
-  artifactKey: Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_WaterSplatter.prefab using Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac29555158d2267a2a659c0fd7c2f6a') in 0.033137 seconds
-  Import took 0.037072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_Smoke.prefab
-  artifactKey: Guid(ab1112643ee572748b01dede71158272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_Smoke.prefab using Guid(ab1112643ee572748b01dede71158272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be9d7a79be5213d9226e90d1544d4c3') in 0.011204 seconds
-  Import took 0.015392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab
-  artifactKey: Guid(ad879d352fd419047bdfc53b3d2a1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_01.prefab using Guid(ad879d352fd419047bdfc53b3d2a1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d195ae2f47a14b21d3cd1381c01e33b') in 0.088365 seconds
-  Import took 0.091105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab
-  artifactKey: Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_WaterSplash.prefab using Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a7fe4b4265f681c2831bb1a928ec0') in 0.052787 seconds
-  Import took 0.056168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab
-  artifactKey: Guid(0d37f80e5a9508346b0ec65e1917e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab using Guid(0d37f80e5a9508346b0ec65e1917e053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f7a04d6862fc4f7522cb1623ed91b2') in 0.105362 seconds
-  Import took 0.108861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab
-  artifactKey: Guid(b147df4880cd0df449352ee652f14686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleFX/Prefabs/FX_PoolSplash_03.prefab using Guid(b147df4880cd0df449352ee652f14686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2855047eb9f43697a9982781a73724b') in 0.028225 seconds
-  Import took 0.032068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.739884 seconds.
-  path: Assets/Textures/Sprites
-  artifactKey: Guid(7fb18b1bda6878e4d91288d8d6b32d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites using Guid(7fb18b1bda6878e4d91288d8d6b32d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c20d01bae613729985bccf30fa8f7a') in 0.009611 seconds
-  Import took 0.013603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.762101 seconds.
-  path: Assets/Textures/Sprites/toonExplosionFree
-  artifactKey: Guid(4bf3f07f57dfcb14d804c819b66ddb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites/toonExplosionFree using Guid(4bf3f07f57dfcb14d804c819b66ddb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a027efdbebc59bfb2648981be7c2a2') in 0.011350 seconds
-  Import took 0.014353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063264 seconds.
-  path: Assets/Textures/Sprites/toonExplosionFree/sprite_toonExplosion_a.psd
-  artifactKey: Guid(e697f895ade7aac4aa68eea470c58242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites/toonExplosionFree/sprite_toonExplosion_a.psd using Guid(e697f895ade7aac4aa68eea470c58242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92410b60c1e4163c33fec2e1a2e770aa') in 0.819046 seconds
-  Import took 0.826056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.143167 seconds.
-  path: Assets/Textures/Sprites/toonExplosionFree/Materials
-  artifactKey: Guid(6ccb7b9e5fd32074aa2b979306be0bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites/toonExplosionFree/Materials using Guid(6ccb7b9e5fd32074aa2b979306be0bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d503f6624d58b373891910820b85bba') in 0.009156 seconds
-  Import took 0.014320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074521 seconds.
-  path: Assets/Textures/Sprites/toonExplosionFree/Materials/sprite_toonExplosion_a.mat
-  artifactKey: Guid(52b04c0184e9aab48b24b574c7e81fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites/toonExplosionFree/Materials/sprite_toonExplosion_a.mat using Guid(52b04c0184e9aab48b24b574c7e81fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6639081c475867bfb7f69e9eaca101a') in 0.072269 seconds
-  Import took 0.075602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.949171 seconds.
-  path: Assets/Textures/Sprites/toonExplosionFree/Example/exampleExplosionEffect.prefab
-  artifactKey: Guid(4c5a17ca1f9fec84e941441ebb8be079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sprites/toonExplosionFree/Example/exampleExplosionEffect.prefab using Guid(4c5a17ca1f9fec84e941441ebb8be079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f93e60b60c5f551c1a749c89481fba') in 0.008714 seconds
-  Import took 0.012124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.197042 seconds.
-  path: Assets/3D Models/Bomb/Albedo.png
-  artifactKey: Guid(2b7560630bbdbda4681a12371b762372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Albedo.png using Guid(2b7560630bbdbda4681a12371b762372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08709e6bd46952545a6398a256ab8380') in 0.027066 seconds
-  Import took 0.032694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Explosion.tif
-  artifactKey: Guid(409ef26b64696f340b2f62b41d2fc11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Explosion.tif using Guid(409ef26b64696f340b2f62b41d2fc11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2514cbbe73e68b018c729949b85c86a0') in 0.315555 seconds
-  Import took 0.318891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/3D Models/Bomb/Metal_Unity.tga
-  artifactKey: Guid(cec8722cd867a9b4293da05345122917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Metal_Unity.tga using Guid(cec8722cd867a9b4293da05345122917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bc4444fe2068c7445c194ba9aec123') in 0.200103 seconds
-  Import took 0.203527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Textures/flame_particle_texture.png
-  artifactKey: Guid(b11f1b02293777549aa72f7d964086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Textures/flame_particle_texture.png using Guid(b11f1b02293777549aa72f7d964086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf69ff73466cbacb2424541af400a3c7') in 0.079548 seconds
-  Import took 0.082913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Scenes/Lighting/Level_1/ReflectionProbe-0.exr
-  artifactKey: Guid(02e03c4326bc376418485d65d5b5f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lighting/Level_1/ReflectionProbe-0.exr using Guid(02e03c4326bc376418485d65d5b5f58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f71c1d5a42dde4f4d1316f43ca6536') in 0.092937 seconds
-  Import took 0.096650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Ramp03.png
-  artifactKey: Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Ramp03.png using Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad1a80ceac9e6c34b9e98ef2c4ae730') in 0.033270 seconds
-  Import took 0.037366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/3D Models/Bomb/Metal.png
-  artifactKey: Guid(31044cecfd10c8e4c9daa42e87fd4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Metal.png using Guid(31044cecfd10c8e4c9daa42e87fd4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c190fd73b3a61c42db4a48e89a89cf') in 0.085463 seconds
-  Import took 0.088917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuffNormal.tif
-  artifactKey: Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuffNormal.tif using Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6d9b9919724f0ca56b879b834dbd39') in 0.179169 seconds
-  Import took 0.182391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/3D Models/Bomb/Studio_demo_3.hdr
-  artifactKey: Guid(989182e92f559d64d878af274abfa4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Studio_demo_3.hdr using Guid(989182e92f559d64d878af274abfa4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bcbf31148dd10d51890867629693f1') in 0.180245 seconds
-  Import took 0.183863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/FireExplosion.tif
-  artifactKey: Guid(59459fa5f4874d34c8a955afad00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/FireExplosion.tif using Guid(59459fa5f4874d34c8a955afad00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941eeef26fc97d83ab3d29e00606d0fa') in 0.232623 seconds
-  Import took 0.238805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Flame03.tif
-  artifactKey: Guid(408718fd5f763de42b12f849570ddf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Flame03.tif using Guid(408718fd5f763de42b12f849570ddf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36af47de680626e277627be7cbb1e911') in 0.240570 seconds
-  Import took 0.244171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/FireBallEmission.tif
-  artifactKey: Guid(d9d8e2fe51aaf4a40b6a5581589afa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/FireBallEmission.tif using Guid(d9d8e2fe51aaf4a40b6a5581589afa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71abc4ffe930b801654177768d4bac') in 0.212673 seconds
-  Import took 0.216265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/LargeFlame02.tif
-  artifactKey: Guid(01dc1c1c99bf4984ca35c1591d3eeb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/LargeFlame02.tif using Guid(01dc1c1c99bf4984ca35c1591d3eeb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed315e5eca49778a5430bea5bf08547f') in 0.521448 seconds
-  Import took 0.525963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/SphereNormal.tif
-  artifactKey: Guid(b7de68a779f91264e8da00162a6b7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/SphereNormal.tif using Guid(b7de68a779f91264e8da00162a6b7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59e3250d7ed3cb2560669747548532d') in 0.020156 seconds
-  Import took 0.024161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/shockwave.tif
-  artifactKey: Guid(492f3349f92767645a752364a5d18422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/shockwave.tif using Guid(492f3349f92767645a752364a5d18422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaf6199775794c024c13961f4679e06') in 0.030125 seconds
-  Import took 0.035000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/TinyStones.png
-  artifactKey: Guid(ce97ed62c0a56e84ab25e22c8dfd5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/TinyStones.png using Guid(ce97ed62c0a56e84ab25e22c8dfd5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ad6a5a3634e4b6380cbef60466aaca') in 0.056418 seconds
-  Import took 0.060321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/3D Models/Bomb/Rough.png
-  artifactKey: Guid(c3e5ecaa96c70db4ea45f20c241431b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Rough.png using Guid(c3e5ecaa96c70db4ea45f20c241431b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11b7d1b6523f6dd2d1f7804d4db83e4') in 0.084212 seconds
-  Import took 0.087958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/ExplosionEmission.tif
-  artifactKey: Guid(05db667749fd79541b026bff39d94a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/ExplosionEmission.tif using Guid(05db667749fd79541b026bff39d94a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50592429abb11771d63f05b12c83c86') in 0.189223 seconds
-  Import took 0.229902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Textures/Smoke Texture.png
-  artifactKey: Guid(4c479939f10f63c4480a21315e38c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Textures/Smoke Texture.png using Guid(4c479939f10f63c4480a21315e38c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5999ade0833a95d2eec587e63d49f4d6') in 0.085736 seconds
-  Import took 0.089090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c2912ba0342f1050e1a3b59203f7a') in 0.030048 seconds
-  Import took 0.033664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/ramp01.png
-  artifactKey: Guid(99e09a9bd0f10384fa2a3bcbd5c65c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/ramp01.png using Guid(99e09a9bd0f10384fa2a3bcbd5c65c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4fb71741081cf89c0f2cb1b01a9a40') in 0.051122 seconds
-  Import took 0.054748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Flame02.tif
-  artifactKey: Guid(838696ee09635f647b630a61fac71a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Flame02.tif using Guid(838696ee09635f647b630a61fac71a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd676fe8c2cff2429baaa35c795c3c') in 0.195192 seconds
-  Import took 0.199037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/RoundSoftParticle.tif
-  artifactKey: Guid(82c211cd7b28abb4a9e4ee77e8bd1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/RoundSoftParticle.tif using Guid(82c211cd7b28abb4a9e4ee77e8bd1b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de2ceb24af27e76ddc6c60a73f2fd3c') in 0.080594 seconds
-  Import took 0.084518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/CameraShakeFX/Demo/Materials/Grid.png
-  artifactKey: Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Materials/Grid.png using Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbd1ec489b15264dc727a2781231317') in 0.057737 seconds
-  Import took 0.061116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuff02.png
-  artifactKey: Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuff02.png using Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb79d8512580dceeddc1c350d2844a9b') in 0.295751 seconds
-  Import took 0.299076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Materials/Floor/Floor 1 Albedo.png
-  artifactKey: Guid(adace980c0ed6fc4086a1fa6b062d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor/Floor 1 Albedo.png using Guid(adace980c0ed6fc4086a1fa6b062d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4a8ce7804b08c2555a6e7ca77dc4e1') in 0.021974 seconds
-  Import took 0.026499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000944 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Ramp02.png
-  artifactKey: Guid(dea2509f9a4d25646855f7b8fedfe191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Ramp02.png using Guid(dea2509f9a4d25646855f7b8fedfe191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1c50d4f4ac6ad79e261f4fa896275') in 0.036958 seconds
-  Import took 0.041393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuff01.tif
-  artifactKey: Guid(26e206bd730800f4f82b828eb9f1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/SmokePuff01.tif using Guid(26e206bd730800f4f82b828eb9f1c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20618e42b5108ac118a9b7a3b332e8d3') in 0.296634 seconds
-  Import took 0.300952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Textures/spark_particle_texture.png
-  artifactKey: Guid(9a64fe11afebb1a418aab1bed241df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Textures/spark_particle_texture.png using Guid(9a64fe11afebb1a418aab1bed241df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d7fa0ba0800beb27d94be48645fe32') in 0.062154 seconds
-  Import took 0.065273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Scenes/Lighting/Level_2/ReflectionProbe-0.exr
-  artifactKey: Guid(c6c51715958f6e545a97d43919dee9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lighting/Level_2/ReflectionProbe-0.exr using Guid(c6c51715958f6e545a97d43919dee9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edd9160d54229a20b70259553401c66') in 0.018961 seconds
-  Import took 0.022182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Fireball.tif
-  artifactKey: Guid(8de8e22f7a7bd4442994c4abcb489b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Fireball.tif using Guid(8de8e22f7a7bd4442994c4abcb489b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efebecdfb1053ec6190ed265551ea302') in 0.277047 seconds
-  Import took 0.280699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Materials/Floor/Floor Albedo.png
-  artifactKey: Guid(9ffb795abd6a0ee48907a4532cb9a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Floor/Floor Albedo.png using Guid(9ffb795abd6a0ee48907a4532cb9a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e11e47696f0f45f18709c9068b8850') in 0.018406 seconds
-  Import took 0.022361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Textures/Low Poly Siege Texture.png
-  artifactKey: Guid(28353009ac533014fab9e05e8f0e717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Textures/Low Poly Siege Texture.png using Guid(28353009ac533014fab9e05e8f0e717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310bea22080a8fae0ae661ee545756a8') in 0.020784 seconds
-  Import took 0.024319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/Debris.png
-  artifactKey: Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/Debris.png using Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad12bee0286b1a59dd3a26e73a466ea') in 0.064822 seconds
-  Import took 0.068762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/CameraShakeFX/Demo/Particles/Textures/EnergyEffect.tif
-  artifactKey: Guid(5dd198d85c911d44f8a3f9f9d6b00be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraShakeFX/Demo/Particles/Textures/EnergyEffect.tif using Guid(5dd198d85c911d44f8a3f9f9d6b00be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec89cefa8fbabcec01c1afff12e51be') in 0.259377 seconds
-  Import took 0.262595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/3D Models/Bomb/Normal.png
-  artifactKey: Guid(44cf3cf2c72409f409b6bc66f8d91847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb/Normal.png using Guid(44cf3cf2c72409f409b6bc66f8d91847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798a2dbc5639c2ed21b415815443cf86') in 0.037327 seconds
-  Import took 0.040740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 771.591450 seconds.
-  path: Assets/3D Models/Bomb
-  artifactKey: Guid(a9015f4d112c4284e9db57089141c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Bomb using Guid(a9015f4d112c4284e9db57089141c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e093ca133737e95b27edcf02f0b11d5') in 0.042931 seconds
-  Import took 0.046870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.877388 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx
-  artifactKey: Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx using Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0d4321eb3e7ad9dcb94843be7086d7') in 0.072972 seconds
-  Import took 0.077404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx
-  artifactKey: Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx using Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17472b286807bc428933b6c165b807a') in 0.044366 seconds
-  Import took 0.047733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx
-  artifactKey: Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx using Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3a46d2120107482250f2820ccc3b2f') in 0.026957 seconds
-  Import took 0.030710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx
-  artifactKey: Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx using Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9d9df442509ce6ff4914636ac28d78') in 0.033765 seconds
-  Import took 0.037047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx
-  artifactKey: Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx using Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75446bdb8700cb3bacb5b401abfa271') in 0.062921 seconds
-  Import took 0.068247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx
-  artifactKey: Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx using Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40367431696a85582ae63bf6786ac9c7') in 0.029272 seconds
-  Import took 0.033070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx
-  artifactKey: Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx using Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143040ac207e7ff6eea8f128ff4817dc') in 0.021906 seconds
-  Import took 0.026149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx
-  artifactKey: Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx using Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713368c8714ced093bcccfed83243216') in 0.028485 seconds
-  Import took 0.032408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx
-  artifactKey: Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx using Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d4867c5de1bbcf3d8f6098d4910b41') in 0.025631 seconds
-  Import took 0.029975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx
-  artifactKey: Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx using Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf230c45e062677902834e9bb7660f') in 0.026933 seconds
-  Import took 0.031673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx
-  artifactKey: Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx using Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35973dbb226fd64e8b689b6c7a3702a2') in 0.027557 seconds
-  Import took 0.032012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx
-  artifactKey: Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx using Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141dbe31119f85b8d281e8912ae8d99') in 0.023660 seconds
-  Import took 0.027277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx
-  artifactKey: Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx using Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7c00dd5271076ecb16bf2bd740ed20') in 0.028093 seconds
-  Import took 0.031821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx
-  artifactKey: Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx using Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6735310002f4ec84c7cc585ed64210c0') in 0.029356 seconds
-  Import took 0.033586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx
-  artifactKey: Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx using Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827bf7a8abe81f7cac0264675e7520ed') in 0.027452 seconds
-  Import took 0.031348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx
-  artifactKey: Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx using Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70ddef53b099b83bf018370f217d50') in 0.037873 seconds
-  Import took 0.042679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.349939 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components
-  artifactKey: Guid(9b5cdfac76312a24a84eccac67d83402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components using Guid(9b5cdfac76312a24a84eccac67d83402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f41cf7e308fd5c2a5275ac01b9bb212') in 0.012564 seconds
-  Import took 0.016888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.969096 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Materials
-  artifactKey: Guid(249ac385e7ede3a4e970545e5c7710b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Materials using Guid(249ac385e7ede3a4e970545e5c7710b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fe06b16e2741a024c20e1811275d05') in 0.005669 seconds
-  Import took 0.010499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.294118 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/anvil.fbx
-  artifactKey: Guid(4d74df2b6f598cb4a81b7e78773fcdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/anvil.fbx using Guid(4d74df2b6f598cb4a81b7e78773fcdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb151143abbed6cef0c57021d2c13a4') in 0.058770 seconds
-  Import took 0.062107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/ram.fbx
-  artifactKey: Guid(9215bc362e4000744a678c8b654a5cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/ram.fbx using Guid(9215bc362e4000744a678c8b654a5cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac50a0d71b7741f89441a5fb9415709') in 0.153682 seconds
-  Import took 0.158035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_red.fbx
-  artifactKey: Guid(42c0d785375a7e04e9be2d780499d8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_red.fbx using Guid(42c0d785375a7e04e9be2d780499d8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae508d7a50eb9bf84a0f6fa2ae37c536') in 0.079429 seconds
-  Import took 0.082005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/blacksmith_area.fbx
-  artifactKey: Guid(a18d4e047674d424a853096fb8e932fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/blacksmith_area.fbx using Guid(a18d4e047674d424a853096fb8e932fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f598161b79ee5c1c5bf1c1a9a778d5') in 0.084300 seconds
-  Import took 0.086956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower.fbx
-  artifactKey: Guid(5e094c6d4d08baa40bf80e1ada836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower.fbx using Guid(5e094c6d4d08baa40bf80e1ada836ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d17d9101bc158bd6a93438b7157990') in 0.039876 seconds
-  Import took 0.043778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_2.fbx
-  artifactKey: Guid(4c8247acd1568584eabf510e3d18c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_2.fbx using Guid(4c8247acd1568584eabf510e3d18c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc542c7fc0070e2913eb2dd27414e82') in 0.076016 seconds
-  Import took 0.080969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/sword.fbx
-  artifactKey: Guid(03f4d98b26bcfa849a8ca2db45110d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/sword.fbx using Guid(03f4d98b26bcfa849a8ca2db45110d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b4478b645444bca805427c04bf798f') in 0.063409 seconds
-  Import took 0.077924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/bucket_empty.fbx
-  artifactKey: Guid(bdbd5f85e89ff6f47984b2a3cf8df8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/bucket_empty.fbx using Guid(bdbd5f85e89ff6f47984b2a3cf8df8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8c23b03be905902e5851c842b46e4c') in 0.073576 seconds
-  Import took 0.076419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_2.fbx
-  artifactKey: Guid(664f9b759fba5a04dbf3256bb1d21ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_2.fbx using Guid(664f9b759fba5a04dbf3256bb1d21ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44695515731b6f8d6cc7b7a3da45fb4') in 0.073561 seconds
-  Import took 0.076992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_1.fbx
-  artifactKey: Guid(a4b43519f2fb988419a0b4c6b7286e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_1.fbx using Guid(a4b43519f2fb988419a0b4c6b7286e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22b24f57421db7cf1759785705b947d') in 0.068078 seconds
-  Import took 0.071430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/catapult.fbx
-  artifactKey: Guid(56625803dda49c44dbf447dd0ad4102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/catapult.fbx using Guid(56625803dda49c44dbf447dd0ad4102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b880331317c0b0ebcf903ea538fb74d4') in 0.101745 seconds
-  Import took 0.105314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_3.fbx
-  artifactKey: Guid(198bf4a43351dde48ba2d1836a1b1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_3.fbx using Guid(198bf4a43351dde48ba2d1836a1b1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3ee1b0da1945afa4d47a6698507e3') in 0.076066 seconds
-  Import took 0.079624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/barrel.fbx
-  artifactKey: Guid(9f4b518569f887f43bf2f80790e19b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/barrel.fbx using Guid(9f4b518569f887f43bf2f80790e19b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775db76a70f642339680a1366f654945') in 0.069262 seconds
-  Import took 0.072808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_blue.fbx
-  artifactKey: Guid(aaee92cdd58481e4384ccc79deb09d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_blue.fbx using Guid(aaee92cdd58481e4384ccc79deb09d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd235e47e41f0199a50cfa890417329b') in 0.067072 seconds
-  Import took 0.082403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/log.fbx
-  artifactKey: Guid(e4d15bcbe2b47444e9da57623e288dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/log.fbx using Guid(e4d15bcbe2b47444e9da57623e288dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1b2e268fcf2dfa3084a6b56810c383') in 0.087429 seconds
-  Import took 0.090558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_4.fbx
-  artifactKey: Guid(4a03a82ff99fd9443b8a5825c64b3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_4.fbx using Guid(4a03a82ff99fd9443b8a5825c64b3451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a022bc93fc4534f7e20e59ff8d855e1') in 0.079181 seconds
-  Import took 0.082145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_2.fbx
-  artifactKey: Guid(19bb35afa5de6504c92593d104ff851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_2.fbx using Guid(19bb35afa5de6504c92593d104ff851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a48a63ea92123948a3aaf57b46af63b') in 0.064614 seconds
-  Import took 0.067874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/cauldron_empty.fbx
-  artifactKey: Guid(16a18d3c3ed927747995fbe463c78060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/cauldron_empty.fbx using Guid(16a18d3c3ed927747995fbe463c78060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe13d8c4c62a076c48b19363b5d9c6') in 0.061037 seconds
-  Import took 0.064183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_4.fbx
-  artifactKey: Guid(cd792911caa2b7c4f8ea483f226f3035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_4.fbx using Guid(cd792911caa2b7c4f8ea483f226f3035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86932a6cfb2b2848f883c8b4e150097') in 0.065015 seconds
-  Import took 0.068247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/siege_tower.fbx
-  artifactKey: Guid(8c7298c1c5a21e449b42ecaef11e5fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/siege_tower.fbx using Guid(8c7298c1c5a21e449b42ecaef11e5fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fde13c98368589f22de10305f61ef3') in 0.105842 seconds
-  Import took 0.109386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/torch_holder.fbx
-  artifactKey: Guid(d20ac29796fd24649a40c9bc7cfae77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/torch_holder.fbx using Guid(d20ac29796fd24649a40c9bc7cfae77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bb07e55ee5cea22f0c4d1a26debe21') in 0.086391 seconds
-  Import took 0.089588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_3.fbx
-  artifactKey: Guid(ec0558aebb1c4a2489c6d237ac50b714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_3.fbx using Guid(ec0558aebb1c4a2489c6d237ac50b714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a89932e7c2bc446c1dc0840b5dd74d') in 0.060552 seconds
-  Import took 0.064348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_2.fbx
-  artifactKey: Guid(345a56fc278b9dd45aad4f62fe01e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_2.fbx using Guid(345a56fc278b9dd45aad4f62fe01e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a1387e60b41c191ac3694fb642518a') in 0.066264 seconds
-  Import took 0.070586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_1.fbx
-  artifactKey: Guid(49f654b908d99ca4fa91818f350f18dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_1.fbx using Guid(49f654b908d99ca4fa91818f350f18dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0593a5dbc826684bda5644b36700baa8') in 0.068588 seconds
-  Import took 0.071172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round_red.fbx
-  artifactKey: Guid(b2dae8e3c3403d74f97de259ad0524f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round_red.fbx using Guid(b2dae8e3c3403d74f97de259ad0524f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b9340d248b044ac91396c0cee7d758') in 0.056427 seconds
-  Import took 0.059982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/ballista.fbx
-  artifactKey: Guid(c0594215ea91d814883f52e435a18971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/ballista.fbx using Guid(c0594215ea91d814883f52e435a18971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7e6e003930f49061a18f842d0727e4') in 0.097740 seconds
-  Import took 0.101066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/tool.fbx
-  artifactKey: Guid(76ff1cc640c7ede4ea64f5643d27b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/tool.fbx using Guid(76ff1cc640c7ede4ea64f5643d27b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd113bba4b8450ddd83863e049c8e27ab') in 0.063521 seconds
-  Import took 0.066900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/box.fbx
-  artifactKey: Guid(2f40c2cfd7ca11e4584201660cce62ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/box.fbx using Guid(2f40c2cfd7ca11e4584201660cce62ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b380e9ebb95d2c17dce087258669b3') in 0.073979 seconds
-  Import took 0.077233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/bucket_full.fbx
-  artifactKey: Guid(bfdb650481947e342b792942fdbec04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/bucket_full.fbx using Guid(bfdb650481947e342b792942fdbec04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621097440e54e961e0de68678d19157') in 0.071947 seconds
-  Import took 0.075161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_1.fbx
-  artifactKey: Guid(5ecd999a39fcac14ba6a4c6fb1ac6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_1.fbx using Guid(5ecd999a39fcac14ba6a4c6fb1ac6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84fad39a2bbce6c1e98ce97df637b64') in 0.063651 seconds
-  Import took 0.067299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/campfire_1.fbx
-  artifactKey: Guid(e4b4fe838eb564447bb5581bd63683bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/campfire_1.fbx using Guid(e4b4fe838eb564447bb5581bd63683bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1f1abbad477ccda80209d059aa9f5a') in 0.071068 seconds
-  Import took 0.074827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/hammer.fbx
-  artifactKey: Guid(a4f24680d4068984abb6b2504b8e01ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/hammer.fbx using Guid(a4f24680d4068984abb6b2504b8e01ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9b294becf5a337930e5c2274bf9f00') in 0.071435 seconds
-  Import took 0.074634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_1.fbx
-  artifactKey: Guid(e614634849ffebf4e8dbbe1a2093da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_1.fbx using Guid(e614634849ffebf4e8dbbe1a2093da5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7089b69a5fb38d05917648daf6927adb') in 0.085688 seconds
-  Import took 0.088949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_3.fbx
-  artifactKey: Guid(806bbb49aa2fb1c428ec3d1139b2631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_3.fbx using Guid(806bbb49aa2fb1c428ec3d1139b2631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bf7c5c98b279d211a57b7e3732e00e') in 0.097318 seconds
-  Import took 0.101062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round_blue.fbx
-  artifactKey: Guid(0cb47af848d23944ebf792ad4f2d3ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round_blue.fbx using Guid(0cb47af848d23944ebf792ad4f2d3ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4759b15666e8ac429ddeebd38925f7') in 0.061767 seconds
-  Import took 0.065901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_1.fbx
-  artifactKey: Guid(5c68a2c2dbfbc544a833514414844dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_1.fbx using Guid(5c68a2c2dbfbc544a833514414844dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff734bb82b35646a0f0fd57a61b3816') in 0.059737 seconds
-  Import took 0.063568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/torch.fbx
-  artifactKey: Guid(4676f31df2ce11244afd7c824cc035ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/torch.fbx using Guid(4676f31df2ce11244afd7c824cc035ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08220e4ca2913149313c28594123d4b') in 0.065690 seconds
-  Import took 0.068983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_5.fbx
-  artifactKey: Guid(46ee6b37d858dfb418087f6d98f0e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_5.fbx using Guid(46ee6b37d858dfb418087f6d98f0e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63f53f2c85164f9f2f24bd9639d057a') in 0.077270 seconds
-  Import took 0.080460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_3.fbx
-  artifactKey: Guid(4e46f327e5d907548afe12da528a0630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_3.fbx using Guid(4e46f327e5d907548afe12da528a0630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bd63d752392a9f48dc06d340bf7ad') in 0.030817 seconds
-  Import took 0.035005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_3.fbx
-  artifactKey: Guid(6dac2b9d37199384a8f3a2937d9a5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/rock_3.fbx using Guid(6dac2b9d37199384a8f3a2937d9a5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f469ac2b17399e72e2667f7fe5c103e2') in 0.088000 seconds
-  Import took 0.091500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_path.fbx
-  artifactKey: Guid(20759be18f2e6454d983e53f62cea3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_path.fbx using Guid(20759be18f2e6454d983e53f62cea3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de86715cac8b6769e34d25051bd901b6') in 0.061204 seconds
-  Import took 0.065057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/jail.fbx
-  artifactKey: Guid(7bcb005da90588648875c4d565a31480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/jail.fbx using Guid(7bcb005da90588648875c4d565a31480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c1e29d823ffbf0b9e277a44dba00fd') in 0.072547 seconds
-  Import took 0.076434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/roof.fbx
-  artifactKey: Guid(834ead3ee15bef44c968ed1a0b487ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/roof.fbx using Guid(834ead3ee15bef44c968ed1a0b487ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44d305230ea1c6282a6ba8b8638ba4c') in 0.064040 seconds
-  Import took 0.067264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_4.fbx
-  artifactKey: Guid(0336ecee60ab0cc4481d30c8469c8412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_4.fbx using Guid(0336ecee60ab0cc4481d30c8469c8412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896ced5324288e75f1186f59a01cb349') in 0.056037 seconds
-  Import took 0.059150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_gates.fbx
-  artifactKey: Guid(b9b02eb057964604ea83d4ef9b48b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_gates.fbx using Guid(b9b02eb057964604ea83d4ef9b48b5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f830341e602deee76856560a311f3ac') in 0.095653 seconds
-  Import took 0.099618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/arrow.fbx
-  artifactKey: Guid(9175ea6f8bd6eea4191b442adb4c9592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/arrow.fbx using Guid(9175ea6f8bd6eea4191b442adb4c9592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c9fc0712842eda8a430b4fd36fd92') in 0.045868 seconds
-  Import took 0.049477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_1.fbx
-  artifactKey: Guid(3954d1c720a808544bca7f28d5313ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_1.fbx using Guid(3954d1c720a808544bca7f28d5313ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03e6f1546d00b95c26417d3beeca64') in 0.067021 seconds
-  Import took 0.070412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/ladder.fbx
-  artifactKey: Guid(f5b6549eb7f47ba4cac92d8f67b80701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/ladder.fbx using Guid(f5b6549eb7f47ba4cac92d8f67b80701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682af14b8b95495e0b1cbb133f3eea79') in 0.088060 seconds
-  Import took 0.094074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/campfire_2.fbx
-  artifactKey: Guid(ceb791ff3a085f1468bdd01198ea4355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/campfire_2.fbx using Guid(ceb791ff3a085f1468bdd01198ea4355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddc8cbae25622ef19fb936418cc0119') in 0.080411 seconds
-  Import took 0.084969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_4.fbx
-  artifactKey: Guid(dc3b52aa35bb7c84f93c6c2d79765b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/barricade_4.fbx using Guid(dc3b52aa35bb7c84f93c6c2d79765b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d8fa7f70f1b002d77fa42918ddd415') in 0.048017 seconds
-  Import took 0.052408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/small_tent_1.fbx
-  artifactKey: Guid(83515bea69d8881478de116958a53a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/small_tent_1.fbx using Guid(83515bea69d8881478de116958a53a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3838ffb127e84df696cd59c616452f4d') in 0.078580 seconds
-  Import took 0.082366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_1.fbx
-  artifactKey: Guid(684bbd9492f5d924a822cdcd771cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_1.fbx using Guid(684bbd9492f5d924a822cdcd771cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ddb51c6a0a707d7f4e4b5455f80293') in 0.070362 seconds
-  Import took 0.075462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round.fbx
-  artifactKey: Guid(650eaf17da7a90e4e8dade87c37a90e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/shield_round.fbx using Guid(650eaf17da7a90e4e8dade87c37a90e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e1ab4a283047b0cbab5bd4bfa45712') in 0.076663 seconds
-  Import took 0.080791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/trebuchet.fbx
-  artifactKey: Guid(478f76ff0c8590e4981c4301cf264bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/trebuchet.fbx using Guid(478f76ff0c8590e4981c4301cf264bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f303680f2eba4e375ddc850868b5227') in 0.059163 seconds
-  Import took 0.062852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_2.fbx
-  artifactKey: Guid(10e44b597f1f8d346a7c0973792d1e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/tree_2.fbx using Guid(10e44b597f1f8d346a7c0973792d1e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6fd66bcc066992f9a945c6fd8c21ce') in 0.082581 seconds
-  Import took 0.085603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_3.fbx
-  artifactKey: Guid(5b5aa841a503f884bb46e4123f4ee616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_wall_3.fbx using Guid(5b5aa841a503f884bb46e4123f4ee616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21795888536855aca6f91e0103cbf106') in 0.092729 seconds
-  Import took 0.096394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_3.fbx
-  artifactKey: Guid(74aff7eff82439f48a46bb731c9c3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_watchtower_damaged_3.fbx using Guid(74aff7eff82439f48a46bb731c9c3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8f27edf2dd6103cec7af900b140a88') in 0.135326 seconds
-  Import took 0.139234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/cauldron_full.fbx
-  artifactKey: Guid(e76044ab1c77f694099525250d31b471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/cauldron_full.fbx using Guid(e76044ab1c77f694099525250d31b471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1b5f029edc3dcaa0afe19082e52bf8') in 0.096037 seconds
-  Import took 0.100523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_tower_round.fbx
-  artifactKey: Guid(2d63c273d15455e47be6e3c7d9a76890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_tower_round.fbx using Guid(2d63c273d15455e47be6e3c7d9a76890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5712819c9f730dbd06b24d73b14bdb') in 0.025780 seconds
-  Import took 0.031521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_orange.fbx
-  artifactKey: Guid(d6d5af1937132b24681768a7e3f631bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/big_tent_orange.fbx using Guid(d6d5af1937132b24681768a7e3f631bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bbd578ab78acf8427b4ad721c8b8ea') in 0.070671 seconds
-  Import took 0.075484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_5.fbx
-  artifactKey: Guid(73a3e3647fffc64429cff42ae3c4a118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_5.fbx using Guid(73a3e3647fffc64429cff42ae3c4a118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a44f707b1a71573f0bdeb7b5bb16459') in 0.078252 seconds
-  Import took 0.081561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/ballista_harpoon_1.fbx
-  artifactKey: Guid(f03b1d55a24ee6b448e61aa3ef448d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/ballista_harpoon_1.fbx using Guid(f03b1d55a24ee6b448e61aa3ef448d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590074ed7f3440e55b9eb73cd6f0b386') in 0.062347 seconds
-  Import took 0.065319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_2.fbx
-  artifactKey: Guid(c090771d872d1f84593481d2fdbbadf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/fence_2.fbx using Guid(c090771d872d1f84593481d2fdbbadf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e09cf0f55a57a19c996f5726fbcca0') in 0.079189 seconds
-  Import took 0.083163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/small_tent_2.fbx
-  artifactKey: Guid(8040781f7cccb7142babcfadda75ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/small_tent_2.fbx using Guid(8040781f7cccb7142babcfadda75ac2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fc589cb114d2f7f3566f5f3d83a891') in 0.061156 seconds
-  Import took 0.064357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_2.fbx
-  artifactKey: Guid(6e592ba45189ab147bae0089e42b3ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Castle Siege Pack/Components/Meshes/stone_debris_2.fbx using Guid(6e592ba45189ab147bae0089e42b3ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8e1d2d6571e5471a4c363fda9d3a35') in 0.049621 seconds
-  Import took 0.052481 seconds .
+  Time since last request: 3.545633 seconds.
+  path: Assets/Scenes/Lighting/New Lighting Settings.lighting
+  artifactKey: Guid(3fafd6c1af310074da14e2eebd0ca026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lighting/New Lighting Settings.lighting using Guid(3fafd6c1af310074da14e2eebd0ca026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da011b43c8dfe77e9777d17272c06e0') in 0.023359 seconds
+  Import took 0.032711 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003341 seconds.
+Registered in 0.000844 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
+- Completed reload, in  0.988 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.4 MB.
-System memory in use after: 160.5 MB.
+System memory in use before: 143.1 MB.
+System memory in use after: 143.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1862.
-Total: 4.660200 ms (FindLiveObjects: 0.524900 ms CreateObjectMapping: 0.168100 ms MarkObjects: 3.837900 ms  DeleteObjects: 0.126100 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 1.981700 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.737500 ms  DeleteObjects: 0.014700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 216.212935 seconds.
+  path: Assets/Materials/BonusPlatform
+  artifactKey: Guid(2c69d024d976e304686489813e22cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BonusPlatform using Guid(2c69d024d976e304686489813e22cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98500156b02955cf2f83d4e9899b2c1d') in 0.011991 seconds
+  Import took 0.016122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005859 seconds.
+  path: Assets/Materials/BonusPlatform
+  artifactKey: Guid(2c69d024d976e304686489813e22cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BonusPlatform using Guid(2c69d024d976e304686489813e22cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98500156b02955cf2f83d4e9899b2c1d') in 0.002838 seconds
+  Import took 0.006165 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1297 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 14.733600 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.066000 ms MarkObjects: 14.374200 ms  DeleteObjects: 0.024400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 297.301507 seconds.
+  path: Assets/Materials/IntermediatePlatform.png
+  artifactKey: Guid(973379253fc42d4468b15eb15037651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IntermediatePlatform.png using Guid(973379253fc42d4468b15eb15037651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8156eeb9b58894a8fda4a2623459ec7') in 0.076981 seconds
+  Import took 0.096743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1022.893668 seconds.
+  path: Assets/Materials/yfjf.png
+  artifactKey: Guid(f6c0260a9b418524e88f39a8d0d4c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/yfjf.png using Guid(f6c0260a9b418524e88f39a8d0d4c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3e2dd716f9c5fbcb610da428610dc8') in 0.039474 seconds
+  Import took 0.051966 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

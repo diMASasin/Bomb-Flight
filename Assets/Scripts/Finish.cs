@@ -74,6 +74,7 @@ public class Finish : MonoBehaviour
     public void ExplodeBoss()
     {
         _camera.SetTarget(_boss.CameraTarget);
+        _camera.FreezePosition(false, true, true);
         _boss.Explode();
         _gameScreen.SetActive(false);
         _crystalMultiplierText.gameObject.SetActive(true);

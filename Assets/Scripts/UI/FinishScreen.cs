@@ -23,10 +23,10 @@ public class FinishScreen : MonoBehaviour
         switch (_nextSceneId)
         {
             case 0: 
-                Level_1.Load(_wallet.Crystals);
+                Level_1.Load();
                 break;
             case 1:
-                Level_2.Load(_wallet.Crystals);
+                Level_2.Load();
                 break;
             default:
                 break;

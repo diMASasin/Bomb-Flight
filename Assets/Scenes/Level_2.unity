@@ -501,5 +501,9 @@ PrefabInstance:
       propertyPath: _lightning
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5701718605908056720, guid: 872bb23dd4a05214cbbf4e045962dae9, type: 3}
+      propertyPath: _lightnings
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 872bb23dd4a05214cbbf4e045962dae9, type: 3}

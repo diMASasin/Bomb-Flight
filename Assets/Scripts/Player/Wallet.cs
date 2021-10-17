@@ -42,7 +42,6 @@ public class Wallet : MonoBehaviour
         LighningsChanged?.Invoke(_lightnings);
     }
 
-
     public void AddBombs(int value)
     {
         _bombs += value;
