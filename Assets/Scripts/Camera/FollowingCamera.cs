@@ -25,16 +25,25 @@ public class FollowingCamera : MonoBehaviour
     private Vector3Bool _isPositionFreezed;
     private Vector3 _interpolationValue;
     private CameraTarget _currentTarget;
+    private bool _isFixedUpdateUsing = false;
 
     private void Start()
     {
         _isPositionFreezed = Vector3Bool.False;
         FreezePosition(false, false, false);
+        transform.position = _currentTarget.Target.transform.position + _currentTarget.Offset;
     }
 
     private void Update()
     {
-        Move();
+        if(!_isFixedUpdateUsing)
+            Move();
+    }
+
+    private void FixedUpdate()
+    {
+        if(_isFixedUpdateUsing)
+            Move();
     }
 
     private void Move()
@@ -63,5 +72,10 @@ public class FollowingCamera : MonoBehaviour
     public void FreezePosition(bool x = false, bool y = false, bool z = false)
     {
         _isPositionFreezed = new Vector3Bool(x, y, z);
+    }
+
+    public void SetIsFixedUpdateUsing(bool isFixedUpdateUsing)
+    {
+        _isFixedUpdateUsing = isFixedUpdateUsing;
     }
 }

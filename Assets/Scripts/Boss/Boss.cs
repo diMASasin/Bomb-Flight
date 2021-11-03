@@ -45,7 +45,7 @@ public class Boss : MonoBehaviour
         _finishScreen.SetActive(true);
         _crystalMultiplierText.gameObject.SetActive(false);
 
-        _rewardSpawner.SpawnReward();
+        _rewardSpawner.SpawnGradually();
         _wallet.MultiplyCrystals();
 
         Handheld.Vibrate();

@@ -68,13 +68,14 @@ public class Finish : MonoBehaviour
 
     public void SpawnReward()
     {
-        _rewardSpawner.SpawnReward();
+        _rewardSpawner.SpawnGradually();
     }
 
     public void ExplodeBoss()
     {
         _camera.SetTarget(_boss.CameraTarget);
         _camera.FreezePosition(false, true, true);
+        _camera.SetIsFixedUpdateUsing(true);
         _boss.Explode();
         _gameScreen.SetActive(false);
         _crystalMultiplierText.gameObject.SetActive(true);

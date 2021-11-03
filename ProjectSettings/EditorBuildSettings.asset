@@ -11,16 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_2.unity
     guid: 6afbfd83132b3df41abb8ae563638c00
-  - enabled: 1
+  - enabled: 0
     path: Assets/SimpleFX/_Demo/Demo.unity
     guid: dbe9743d9065a2445a22fa67fa9fdbb5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/TypedScenes/Samples/SampleScene.unity
     guid: 0f6bac69eabbc514aad4bfb041ff85ec
-  - enabled: 1
+  - enabled: 0
     path: Assets/AurynSky/Gems Ultimate Pack/Scenes/DemoScene_Gems.unity
     guid: 830994939b34e2d4ba127ff3d156a0f6
-  - enabled: 1
+  - enabled: 0
     path: Assets/CameraShakeFX/Demo/Demo.unity
     guid: 7c4ab7c1aaec3a74b98fcd76c8eeb2d2
+  - enabled: 0
+    path: Assets/TSF/Scenes/stage.unity
+    guid: d2a9688de3b6e4a389d24343decd1e96
+  - enabled: 0
+    path: Assets/JMO Assets/Toony Colors/Demo 2.0/TCF_Demo.unity
+    guid: f99f94e39631dd348bb510f9f294eb07
   m_configObjects: {}

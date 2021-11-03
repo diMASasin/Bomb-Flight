@@ -98,7 +98,7 @@ public class Bomb : MonoBehaviour
                 target = (HumanTarget)target;
 
             target.SetExploded();
-            target.RewardSpawner.SpawnReward();
+            target.RewardSpawner.SpawnAtTheSameTime();
 
             target.StartDestroyWithDelay();
         }
