@@ -11,8 +11,6 @@ public enum Rewards
 [RequireComponent(typeof(RewardSpawner))]
 public class Target : MonoBehaviour
 {
-    [SerializeField] private Rewards _rewardType;
-    [SerializeField] private float _rewardValue;
     [SerializeField] private float _destroyDelay = 10;
     [SerializeField] private int _ignoreBombLayerID = 6;
 

@@ -10,11 +10,13 @@ public class StartZone : MonoBehaviour, IPointerDownHandler
     [SerializeField] private GameObject _startScreen;
     [SerializeField] private GameObject _gameScreen;
     [SerializeField] private FollowingCamera _camera;
-    [SerializeField] private CameraTarget _playerCameraTarget;
     [SerializeField] private CameraTarget _gameScreenCameraTarget;
+
+    private CameraTarget _playerCameraTarget;
 
     private void Start()
     {
+        _playerCameraTarget = _player.GetComponent<CameraTarget>();
         _camera.SetTarget(_gameScreenCameraTarget);
     }
 
